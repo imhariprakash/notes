@@ -27,4 +27,26 @@
     - when red is way more than the average, only reddish (1.1 times, 1.5 times,...)
 - Blue screen effect:
   - record in a blue screen or green screen -> replace the actual image with the background image
-  - 
+  - Algorithm:
+    - detect red pixels
+    - for each (x,y) pixel in the image target, replace the corresponding pixel in the background image
+    - maintain adjacent pixels
+  - Python:
+    ```python
+    from simpleimage import SimpleImage
+    front_image = SimpleImage("skop.png")
+    back_image = SimpleImage("back.png")
+
+    for pixel in front_image:
+      avg = (pixel.red + pixel.green + pixel.blue) / 3
+      if pixel.green > 1.5 * avg:
+        x = pixel.x
+        y = pixel.y
+        back_pixel = back_image.get_pixel(x, y)
+        pixel.red = back_pixel.red
+        pixel.green = back_pixel.green
+        pixel.blue = back_pixel.blue
+
+    front_image.show()
+ 
+<img src="https://github.com/imhariprakash/notes/blob/main/CS%20105%20-%20Stanford%20Introduction%20to%20computer%20science/assets/bluescreeneffect.png" alt="Blue screen effect" width="1500" height="300">
