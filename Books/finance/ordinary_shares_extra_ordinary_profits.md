@@ -1,0 +1,1005 @@
+# Ordinary shares extraordinary profits
+    
+## prologue:
+-  The main ingredients of a strong portfolio: are discipline and liquidity
+-  accumulate a small amount of stocks with a long-term story intact
+-  debt and leverage could kill a company and destroy value
+  -  when interest rate increases - it is game over for a poorly debt-managing company
+
+## Chapter 1: knowing the market:
+-  **Liability**: 
+   -  proprietary, partnership, corp/pvt ltd (limited liability)
+   -  liability is limited to the contribution (the smaller the contribution, the smaller the liability)
+   -  investors type : (DII, FII, MF, Retail, HNI)
+-  **Authorized share capital**: total share capital available while incorporation for subscription
+-  **Terms**
+   -  **face value**: unit share price while initial subscription (usual FV: 100, 10, 5, 2, 1)
+   -  **circuit breakers**: freeze further trading when levels are reached (say down 10%)
+      -  upper and lower circuit: 5, 10, 20
+      -  F&O shares: no circuit breaker - controlled by a margin
+      -  when lead index drops 10% : shut down for an hour
+   -  **Stock exchange**: 
+      -  buy and sell shares (Major: NSE, BSE (oldest))
+      -  To list - put IPO (initial subscription offer)
+      -  Market time: 9:15 A.M. to 3.30 P.M.
+      -  Match buy and sell trades - matched electronically
+      -  SEBI: regulatory body
+         -  umpire role (set or modify rules)
+         -  manipulation by large players - avoid and give a fair play
+         -  SEBI powers: SE, brokers, DII, FII, MF, registrars, depositories, companies listed, IPO
+
+   -  **Index and arbitrage:**
+      -  indicator, history comparison, standard against performance of a fund
+      -  same-day buy in one exchange and sell in another: no (arbitrage)
+      -  BSE first introduced index in 1986 : 30 stocks
+      -  method: free float method from 2003 sep 1, before: full market capitalization
+   -  **Depositories, brokers**:
+      -  **NSDL and CSDL*-  - DEMAT account - e-shares are maintained
+      -  **broker**:
+          -  member of SE - execute buy and sell - behalf of clients
+          -  may offer portfolio management, MF, life insurance
+          -  more trades: more commission, most of them do for commission
+   -  **bonus issue:**
+       -  free of cost (when reserves and surplus account > equity by a margin)
+       -  debit the reserve and credit the same in equity
+         -  result: issuance of fresh shares
+         -  new shares flow: may decrease the price in short term
+         -  long term: go back to normal and rewarding
+    -  **rights issue**:
+         -  raise money to fund project / acquire company
+         -  issue new shares to existing customers at a discounted price
+         -  rights issue can also be issued as convertible bonds: draws fixed interest for a period and converted to shares at pre determined price and ratio
+    -  **convertible bonds:**
+        -   other way to raise money 
+            -   foreign currency convertible bonds 
+                -   overseas company issues to FII (underlying security: stock)
+                -   either redeem the bond with interest or convert to equity (discounted price) 
+            -   issuance of warrants to the promoters
+                -   allot share / warrant to main promoters (increase holdings)
+            -   foreign currency exchangeable bonds
+                -   either redeem or exchange to equity
+    -   **share split:**
+        -   reduce face value - when unit price is very high
+        -   number of shares increases, theory: value unchanged (1 share = 100, 10 shares will be 100)
+    -   **dividend :** distribute to share holders (taxed at source) - interim dividend (when great profits)
+    -   **long term:** 
+        -   equity good investment than debt
+    -   economy changes, fortune changes 
+        -   no fixed rules on return - company owe you nothing
+        -   buying good stocks at high price also lead to loss
+    -   **good market:**
+        -   neither good nor bad
+        -   market can remain irrational than you can remain insolvent (price very low or very high)
+        -   when market 20% drop - best time to invest
+        -   market doesn't matter - individual stocks do
+    -   **theory:**
+        -   when no body talks about stocks: stage 1
+        -   tell how risky: stage 2
+        -   people ask which stocks to buy: stage 3
+        -   advices: stage 4
+
+## chapter 2: business cycles:
+-   **government:**
+    -   **reforms**: free economy from closed one
+    -   **closed economy**: govt controls everything (no private property) - black market trades, poverty
+    -   **public sector**: usually no ownership or accountability
+-   **effect of interest rate on economy and stocks:**
+    -   government decides fiscal policy (expenditure (departments) and income (direct and indirect tax) figures)
+    -   **RBI decides monetary policy**
+        -   rupee not highly available: value increases (so keep supplies constant) - stable inflation
+    -   **instruments to control money available**:
+        -   credit : RBI lend money as last resort to institutions (flow increases)
+        -   money supply (raise cash reserve ratio (deposit retain), SLR (set aside for govt bond purchase), auctions - to introduce or suck out money)
+        -   interest rates (REPO, reverse REPO)
+            -   REPO: banks borrow from RBI
+            -   reverse REPO: bank lends to RBI
+            -   when money is cheap : more credit used
+        -   **Aggregate demand** = consumption by households + investment (business spending on capital goods) + government spending + net exports 
+        -   **fiscal policy:**
+            -   **direct tax:** personal and corporate
+            -   **indirect tax:** production, import, export, LTCG
+            -   diff b/w income and revenue: fiscal deficit / surplus
+                -   deficit: higher borrowing by government - high inflation - higher interest rates
+                -   high interest rate: less consumption and growth slowdown (further increase fiscal deficit as growth slowdown income slowdown)
+            -   **fiscal deficit / trade gap** = savings - investment = import - export
+            -   trade gap (fiscal deficit) -> covered by borrowing capital from overseas
+            -   high borrowing -> damages current account figures, weak domestic currency (costlier imports)
+            -   same time: focus on growth and stimulating economy
+            -   interest rate - reflection of cost of money in an economy
+            -   real interest rate = bank rate - inflation
+    -   Effects of fiscal deficit:
+        -   **Deficit and Inflation:**
+            -   when the government is spending more than the revenue from tax collection, borrows money (issue bonds, print money in extreme cases)
+            -   borrow money - injects more liquidity into the economy, boost demand (when demand outpaces supply - inflation)
+            -   increased borrowing can drive up the interest rates (discourage private investments - not an issue if workers available)
+        -   **Surplus and inflation:**
+            -   more revenue than spending - excess cash (pay debts, save)
+            -   less spending means, less liquidity, lower demand (low inflation, lower interest rate)
+        -   **Economic Recession:**
+            -   Not same as above two (labor, resources) - underutilized, hence inflation is reduced
+    -   **Gold:**
+        -   when interest rate is low / negative: money move from banks to other asset classes
+        -   when interest rate is negative -> gold value increases -> currency value depreciates in terms of gold
+        -   india - largest consumer (25 tonnes to 30 tonnes reserve) - hedge against inflation
+    -   **Inflation:**
+        -   when excess money chases goods
+        -   any one having hard asset (cash, deposits): affected - poor are affected more
+    -   **Interest rate and stock market:**
+        -   increase in interest rate -> increases cost of borrowings, decreases profit (sales are affected, price increase)
+        -   sectors affected mainly: auto, real estate, consumers good, banks
+        -   slow down economy, increase unemployment
+        -   suck out money -> inflation decreases -> money value increases 
+        -   increase in interest rate: temporary fall in market (panic) -> good time to buy
+    -   **Effect of inflation on stocks:**
+        -   1971 -> Nixion took USA from gold standard -> print any amount of money
+        -   central banks -> intervene to avoid recession -> cut rates (even down to 0%)
+        -   **asset of company:** valued on paper currency -> decreased interest rate -> appreciation of stocks (peak market)
+        -   at the time of raising interest rate -> markets will be at all time high -> bear market
+        -   Boom - Burst sequence: period of boom is longer than burst 
+        -   why: fall quickly, forcibly liquidated (at long terms -> smooth)
+        -   identify correct stocks (quantitative and qualitative methods)
+        -   best time to buy: market is in panic, exit: when highly over valued
+    -   **deep correction:**
+        -   recession: two quarters of negative growth in GDP
+        -   ease interest rate, increase money supply, reduce tax, borrow money to stimulate economy
+        -   recession: buy good stocks at bargain
+
+## chapter 3: equities:
+-   **bonds and FD:** when adjusted to inflation: returns are negative (especially India)
+    -   tolerance level inflation (India) : 5%
+    -   most private sectors - no pension schemes, PF: returns also negligible
+    -   equities: hedge against inflation, no time / knowledge: passive ETF
+    -   **lose money:**
+        -   buy a great company at overvalued price (irrational bull market) - wait for years
+        -   buy a lousy company at any price - lose money
+    -   **consider while investing:**
+        -   nature of business and quality of management
+        -   correct price?
+    -   **MOAT:**
+        -   bug ditch surrounding a fort (10 feet deep and wide), draw bridge to enter the fort
+        -   company have moats - inherent advantage - doesn't allow others to enter their market 
+        -   acquire moat companies cheap and hold in boom years
+        -   **types of moat:**
+            -   moat by government regulation and taxation
+                -   tobacco: ad, brand promotion restricted, taxation high
+                -   little chance for new brand emerging, foreign investment banned
+                -   MNC can't enter and spend money in marketing and distribution
+                -   existing players dominate and profit (ITC)
+            -   **first mover advantage and use of networks:**
+                -   entrenched player - difficult to get customers from them (Sun tv) - control both content and distribution
+                -   Advertisements flock to them - positive feedback loop
+                -   no revenue (no body gives ad to a new player) - no content - no TRP -> negative feedback loop
+                -   banking: SBI, LIC (all govt maintains their account with them)
+            -   **low cost moat:**
+                -   lowest cost producers - easy access to raw materials (advantage than JSW and hindustan zinc)
+            -   **regulated market:**
+                -   licensing policies of local government (state transport authority)
+                -   eg: three wheeler vehicle market - bajaj, tvs 
+            -   **building a moat by opening new product category:**
+                -   eg: large gap between 3 wheelers and light weight commercial vehicles
+                    -   tata motors: Ace - sold 5L units even before competitor launch a product
+                    -   apple: regular launches - 3 trillion dollar company
+                    -   gillete: innovative product - create a moat - hard for competitors to penetrate
+                -   investor - able to identify - great, when market realizes the moat: share price plummets
+    -   **fischer's test:**
+        -   identify good company at a good price
+        -   **fischer's 15 rules:**
+            1. Products steadily increase sales over several years
+            2. Will management invest in new product development when existing product's sales taper
+            3. How are the company's sales organized
+            4. How effective is company's R&D in relation to its size
+            5. What is the margin of profit
+            6. Will profit margin improve
+            7. How company treat its labour and personnel
+            8. How company treat its executives
+            9. Depth of management in the company
+            10. Financial controls of the company
+            11. Any aspects peculiar to this industry that offers a clue to the investor about any outstanding features of the company
+            12. Is the company outlook for profits short term or long term
+            13. Will the company be forced to issue new equity to finance future growth
+            14. Is the management open about its problem to the investors
+            15. Does the owner have outstanding integrity
+        1.  **Increase in sales for several years:**
+            *   lesson: right time, right place -> set up -> expand -> diverge -> grow over years
+            *   most experts worries about short term (quarter to quarter results / year to year) - quick profit
+            *   some incident - boosts growth when stagnates - growth slows down - company disappear
+            *   sterilite - largest player in non ferrous metals bought 2 government company + captive mines (hindustan zinc, bharat aluminum company)
+            -   sell excess power from power plant - in scarcity situation, setting up green field power plants
+            -   things gone right:
+                *   anticipation of bubble
+                *   captive mines - cheap - made super profits
+            -   similarly hindalco and ambuja cements
+            -   Right time at right place - As country grows, company too
+            -   M&M: tractor, expanded to vehicle then others like real estate...
+        2.  **Management invest in new product as existing one's sales diminish:**
+            *  new centers, products, services - portfolio
+            *  ITC: aware (tobacco - high vat and restrictions - not a future market)
+            *  ITC: farmers(adopt new tech - raw materials), encourage growing forest (paper business and agro business), untapped markets: notebook, newer products continuously
+            *  bajaj: 3 wheeler passenger vehicle, geared scooters
+            -   honda gearless scooter - became favorite among men and women
+            -   tied up with kawasaki and competed tvs and hero
+                -   interest free loans, R&D -> boxer, pulsar -> dominated 125cc bikes -> second leader in south east asia
+        3. **How are the sales of a company organized:**
+           - **math ratios:** production cost, R&D
+           -   important: how sales department is organized (no sales no revenue)
+            -   no analyst discuss this or ad and marketing strategies and effect of products in market
+           -   training sales personnel, distribution chain spending - must
+           -   sales potential analysis (investor must do): customer and competitor talks about this
+           -   testament, re-orders - sales pattern
+           -   HUL: 
+                -   makes trainee spend time in remote / local distribution centers - sales route, product study
+                -   training: ensure company growth
+                -   more money spent on training sales personnel -> more successful it will be
+        4. **R&D effectiveness:**
+           -   publicly listed: easy to know about R&D
+           -   research must be done in good and bad years
+                -   sometimes no fruitful return (drug companies - most of them never jump trial)
+                -   some cases: outstanding product - eg: Tata ACE
+            -   India: produce drugs with patents - free (Dr Reddy)
+                -   good R&D, many drug applications, drug master files
+                -   sun pharma and bicon - heavy R&D
+        5. **margin of profit for a company:**
+           -   two types of companies:
+                -   lower profit margins during normal years 
+                -   higher profit margins during normal years
+           -   investor - confirm spent into R&D / sales promotion or new product development (profit margin decreases)
+            -   tata motors: 500 crores loss in 2003 (ACE, jaguar, land rover acquisition)
+           -   no investment (high sales) -> no future growth -> company with moderate profit margin
+        6. **will company's profit margin improve:**
+           -   difficult to maintain profit margin among global volatility
+           -   some companies -> increase cost (pass the burden to cx), less lucky companies: innovate to reduce costs
+           -   plan long term to avoid disruption of business and cost control
+                -   teams to reorganize existing process, products, plants, machinery, optimize, transport, logistics, power cost
+                -   eg: JSW need to import ore (karnataka - banned mining of iron)
+        7. **company treats its labour and personnel:**
+           -   least appreciated facets by investors
+           -   frequent strikes, inability to retain talents (additional training cost, non loyal employees) - business loss
+           -   attitude of management to the rank and employees (avoid companies with no feeling on employees)
+        8. **How company treat its executives:**
+           -   executive: manage team, execute project
+           -   how much confidence the executives have in the board / chairman (upon promotion, salary rise, fair, transparent : satisfied)
+           -   when management role - filled from outside rather than internal promotions (bell should ring) - not healthy
+                -   executives are the one who make / break the plan of top management
+        9. **Depth of management of the company:**
+           -   management talent to replace - grow continuously from with in
+           -   TCS:
+                -   JRD Tata - from tata power FC kholi + talented engineers = TCS (no background)
+                -   TCS revenue - helped other Tata companies : Tata sons (crown jewel)
+           -   All CEOs have come up internally through the system
+        10. **Financial controls of the company:**
+            -   accounting guidelines implemented?
+            -   record even smallest details - cost, allocation proportion among divisions
+            -   if not recorded: unable to asses which department contribute to the bottom line (sales promotion on wrong products)
+            -   extreme cases: fictitious financial statements, inflating expenses (personal expenses charged to the company)
+            -   hard for an investor to detect this (pickup signals from promoter) - 
+                * satyam (promoter bought a website for 500cr)
+                * group company is sold to outside investors
+                * intangible asset - this is too much  
+                  -   vijay mallaya:
+                      -   promoter running cricket, formula 1 while airline canceling scheduled flights - can't pay fuel bills
+                      -   more debt to pay debt, debt is converted to equity forcibly
+                      -   moat is strong in the core business - but pledged for his lifestyle 
+                      -   done the same thing - sold father's paint business, FMCG brand
+                -   read promoter's history
+        11. **Aspects peculiar to this industry that offers clue to the investor about any outstanding features of the company:**
+            -   certain business requires skills (retail - managing real estate)
+            -   consumer goods: Advertisements (media skill set): ability to do cost benefit analysis
+            -   proper enquiry and research can tell us - whether a company spent more money for reaching the same larger audience than competitor
+            -   skill: low cost Advertisements - cost cutting measure (HUL, Godrej, Cadbury). (Bata - failed)
+            -   credit handling (finance) - non performing asset can make or break a company
+            -   financing projects - can give favorable edge in long term
+            -   A highly skilled treasury team - reduce the need for borrowing or necessity to dilute equity for new green field projects
+        12. **Is the company outlook short term or long term:**
+            -   **professional managers**: short term
+            -   **situation**: news channels - comparing quarterly profits, predicting future - Even though it matters only a couple of days
+            -   investor must look at a stock in point of view refused by management to talk
+                -   tata motors, M&M, bajaj out performed maruti for 10 years 
+                    -   reason: royalty paid to the MNC instead of investing
+                -   **Media pressure:**
+                    -   look for short term profit, sacrificing long term
+                    -   give stock options for the employees 
+                    -   when stock price falls, no body wants equity (FCCB)
+                        -   want to repay with interest, company under pressure
+                        -   sell asset for cash flow - sacrifice long term growth
+                    -   No expert takes more than a year's view of the stock performance (most less than 6 months)
+                -   **media revenue:** from trend advertisement, playing with the instinct of a gullible trader
+                    -   investor must focus on long term viewed companies (big trends change the way we live - missed by newspaper and TV)
+                    -   how to find out when media misses:
+                        -   whether company investing in long term
+                        -   how company treats is vendors and customers
+                            -   willing to compensate a vendor for unexpected increase in cost - or squeeze to the last rupee
+                            -   when tables turn: vendor will favor
+            -   **customer treatment :**
+                -   product recalls, service issues - as cost of acquiring a new customer will be more than repairing
+                -   eg: Dish TV (arrogant behavior of promoter and employees) - lost market share and customers
+                -   worry about decades not quarters
+        13. **Will the company be forced to issue new equity to finance future growth:**
+            -   when forced: when no one willing to give debt
+            -   when unable to acquire debt at cheap rates, other options: dilute equity
+            -   any dilution in equity means:
+                -   profit per share is going to drop in the immediate future (share price may not increase)
+            -   If capital requirement funded by combination of borrowings and internal accrual 
+            -   no need to worry, profits upcoming will fix the share price
+        14. **Is management open about its problem to its investors:**
+            -   events, profit reduction, sales stagnation, product recall
+                -   even out of best R&D happens - overshoot the budget
+            -   how management handles this: communicate?
+                -   investor can get valuable info on attitude 
+                -   denies reality - inability of management to handle crisis and panics
+                -   solution: accept and rectify (reduce long term damage)
+            -   avoid companies - management is ignorant (not transparent)
+                -   intel: how handled floating point error in intel pentium processor
+                -   who affected: scientists doing math calculations after the tenth decimal
+                    -   big hue and cry even though management's explanation
+                    -   offered free replacement - crisis disappeared
+                    -   buying shares at this period - would be great
+                -   **American express bank: **
+                    -   wrong certifying warehouse (oil but had water) by subsidiary
+                    -   buffet found - this scam doesn't affected core business - bought 5% shares (35% of funds) - sold 5 1/2 times profit in 5 years 
+                    -   If a great company falters(not ignorant): you may get a bargain
+        15. **Owner integrity:**
+            -   close to assets of a company: promoter and top management
+            -   may exploit illegally or legally - morally corrupt
+                -   employ relatives / friends at high salary
+                -   lease own land at higher rent
+                -   insider purchase - route all raw material purchase through a company owned by insider
+                -   legal method: shell company (promoter has shares - face value low / zero / free shares / stock options) - listed parent company funds the shell company with advances
+                    -   once profitable - sold to parent company at huge premium
+                -   promoter enjoys risk free huge return with zero investment
+            -   promoter takes lions share - reward themselves of net profit (salary or commission)
+            -   best company:
+                -   management and promoters with trusteeship and morality to all stake holders (minority too)
+                -   don't invest in a company where promoters abuse trust
+                -   promoter's share is less than 26% : risk (best avoid)
+    -   **value stocks:**
+        -   P/E ratio is very low compared to index figures - can borrow at lower rates (easy to expand)
+        -   with interest rate cuts - outperform the market
+        -   rights issue:
+            -   value stocks usually issues fresh shares in the form of rights issue (discounted price)
+        -   repay debt from accruals, fund expansion using cash flow - enhances their borrowing power
+        -   value stock: dalal street not yet recognized this - so dirt cheap
+        -   EPS grow steadily, next boom - grow steadily
+        -   eg: tata motors 
+            -   2001: 500cr loss - but next year became profitable - regular dividends
+            -   2008: bought land rover and jaguar - stock punished (147)
+            -   10 face value -> split 2 face value
+            -   2011 -> EPS became 155 (adjusted to stock split = 31)
+            -   180 in Nov 2011 (PE < 6), jaguar and LR sales increased
+            -   great earnings but dalal street - out of favour
+            -   inflation dropped -> interest rate decreased -> total dividend payout alone 108.70 (8 yrs)
+        -   time passes -> good value company becomes good growth company -> outstanding returns (eg: titan)
+        -   titan:
+            -   watch manufacturer (first : quartz watches in India - Joint venture TIDCO)
+            -   (high debt -> price = 39) new management -> dropped joint venture -> Tanishq was strengthened
+            -   sonata, tata gold, higher end watches, titan eye plus, fast track (100 times returns)
+            -   cigarettes yet to be lit but thrown to the floor
+    -   growth stock:
+        -   very high P/E : opposite of value stock
+        -   Earnings per share will be low -> when growth requires money -> they issue new equity 
+        -   even can borrow -> they prefer equity (cheaper)
+        -   banks won't pity -> as profit may shrink
+        -   can issue stocks, earnings yield 2%, post tax returns 8-9%
+        -   dalal street's favorite, so costly
+        -   best growth companies: won't issue stocks -> managed by cash flow (ITC)
+            -   cigarettes, paper, hotels, oil
+            -   board room struggle -> BAT tried increasing its share -> with DII survived
+                -   merged paper and hotel : with parent
+                -   farmers: advice on tech and seeds, fertilizer -> grown into FMCG
+                -   biscuit, chips, noodles, paper, packing, stationery, agarbattis
+                -   moat: hotels and FMCG
+            -   L&T:
+                -   construction, power, shipbuilding, IT, finance, insurance, defense
+                -   ambani tried to take over, only got a seat (exited cement business)
+            -   Dr reddy:
+                -   founding time: India had process patent (can copy but with a different process)
+                -   when product patent came: it had capabilities to develop own molecules (ANDA, DMF)
+                -   became leader, MNC, several acquisition, mastered complicated processes and techniques (bio similar - hard to copy)
+                -   Unlike ranbaxy - seller didn't wanted to sell the company
+    -   turn around stocks:
+        -   sick: loan, non profitable, no new products (sell off in market) - distressed price - buying opportunity
+        -   factors:
+            -   brand value, 
+            -   products have market or future
+            -   still make money if problem solved
+            -   current management is capable
+            -   does management recognize and sell the company for stock holders return 
+        1. brand value:
+            -   titan: watch making company -> jewelry
+            -   huge debts, losses
+            -   new management -> 18 carat to 22 carat jewelry, franchise route to sell, karat meter -> purity (customers are attracted)
+        2. future:
+            -   great companies survive and reinvent
+            -   Intel: manufacture core memory for IBM -> better and lost cost processors 
+                -   80% of revenue from IBM -> bold move shifting to processors (micro processors)
+                -   IBM personal computer became standards but Intel developed better 
+                -   kill yourself before competitors do and improve
+            -   bajaj:
+                -   gearless variety dominated, tied up with kawasaki, dominating 3 wheeler market
+                -   bright spot: debt free
+                -   invented: pulsar, boxer -> dominated 125 and 150cc segment
+                -   it exited scooter segment -> gearless and geared bikes
+                -   de merger: holding company, finance, auto
+        3. still make money:
+            -   promoter mismanagement - cook books -> one day unable to manage 
+            -   new management took off
+        4. management's capability:
+            -   turn around? Ford: almost in bankruptcy
+            -   henry ford's grandson -> fired top management -> pledged everything, sold subsidiaries, outsourced jobs
+            -   made profitable, survived credit crises
+            -   M&M:
+                -   tractor -> loss making -> cars, SUVs, heavy vehicles, fiance company
+        5. management ready to sell for stock holders:
+            -   no equity to run -> merge with bigger one 
+                -   centurion bank (NBFC -> bank), new promoter came in and merged with punjab bank
+                -   opportunity came: merged with HDFC
+    -   momentum stocks:
+        -   no fundamentals (TV, AD): move up or down - day trader's favorite
+        -   analyst come up with explanation after everything over 
+        -   directions: unpredictable, wild horses
+        -   no one can do money on sustained basis (brokerage, taxes - wiped out in no time)
+        -   types:
+            -   unusual movement in trade hours   
+                -   novice trader jumps in - no idea why happening
+                -   usually newly listed, promoter wants to sell (stock manipulation)
+            -   momentum trading:
+                -   government sectors: power, energy, fertilizer - possible action
+                -   when occurs: increase, else: decrease (political), sugar 
+            -   news flow:
+                -   positive or negative
+        -   instances:
+            -   satyam: fraud news -> crashed from 500 to 6
+            -   suzlon: takeover by debt -> recession 
+            -   SKS micro finance: IPO with hype and celebrity, bitter reorganization -> mighty fall 
+            -   king fisher airlines: reckless borrowing -> bankrupt
+
+## chapter 4: Fundamental analysis:
+-   Intro:
+    -   use quantitative method and ratios - from reports
+    -   data -> to decide from public reports and data (judge safety, returns)
+    -   factors: 
+        -   **inflation:**
+            -   older days gold currency standard - stable inflation and followed by deflation 
+            -   now: nowhere except japan - deflation there
+            -   asset depreciates fast - not good for middle class, debt increases (people cut consumption, purchase of assets, hold money) - deflation
+            -   central bank - allowed low level of inflation and doesn't avoided deflation
+            -   real estate, banks, automobiles : sensitive to interest rates (affects margins)
+            -   less debt means good, higher level of borrowing ability
+        -   **interest rates:**
+            -   high inflation is followed by high interest rates - declining profit, low sales - economic slowdown
+            -   look forward, have idea about interest rates - how affects a stock
+            -   how stock reacts to business cycles
+            -   ability to perform: than competitors with high brands - in adverse market conditions / poor management
+            -   enough strength in balance sheet to withstand high interest period (pessimism - may extend for a long time) - eg: TATA
+        -   **economic policy and regulatory environment:**
+            -   general economic indicators, budget: tax collection and spending (infra)
+            -   ability to buy fuel of India : affects subsidy bills (oil marketing companies: Government is the judge, jury and the prosecutor - best avoid)
+            -   eg sectors: electricity, fertilizer, sugar - input and output are govt controlled
+            -   be careful when jumping into a regulated sector
+        -   **risk of currency fluctuations and effect on company:**
+            -   US dollar - no longer gold standard
+            -   To make exports competitive - East asian countries maintained currency value < US Dollar
+            -   They bought dollars, maintained local currency appreciation (artificial manipulation)
+            -   India never had consistent current account surplus (energy and gold imports together accounted for > 60% of import)
+            -   thirst for gold:
+                -   Indian rupee depreciated against basket of international currencies
+                -   diversified export: software, pharma, HR (skill, unskilled) - largest inward remittance
+                -   In India (flow of capital is controlled and restricted - value of rupee - huge impact on company)
+                    -   say import company (local income) - when currency weakens : import cost increases
+        -   **cost of raw material, capital:**
+            -   India: net importer of commodities (rupee depreciating - not a good news)
+            -   eg: JSW, tata power, adani power
+            -   foreign currency debt - cheap when rupee is valued - higher depreciation can wipe out company
+            -   repayment may not be due - but devaluation cost - loss
+            -   must have a hedge to tackle
+    
+-   **limits of fundamental analysis:**
+    -   analysis: careful consideration (buy, sell, hold) - from financial data
+    -   follow fisher's principle to make decisions (buy price, sell price): independent of market value
+        -   look at past results (3-5 years)
+        -   patience to ride out unfavorable environment in markets (beyond company's control)
+    -   change in economy -> make prediction go wrong 
+        -   new tech, new regulation (true company reinvents)
+        -   Godrej moved from typewriters, ITC from cigarettes
+    
+-   Intrinsic value of a company:
+    -   independent of market price (past earnings)
+    -   account: past earnings, future projected earnings (5-6 years)
+        -   past valuations - is it fair 
+        -   whether company lends itself to valuation (available data, predictable growth and earnings, comparable data with competitors, business model)
+        -   imperfect valuation - better than no valuation (not false valuation)
+        -   how much has one left in the valuation process for diversification and margin of safety 
+    -   correct value of a stock: an informed buyer would sell to an informed seller
+    -   distorted valuation: promoter (high salaries), promoter shell companies, take fee using today's valuation - instead of transaction data
+    -   Indian public sectors (power: controlled by government policies)
+        -   investors at risk
+        -   share below intrinsic value (range): accumulate
+        -   some cases: estimated intrinsic value greater - hold and sell
+        -   also note book value (banks: highly liquid, asset: loan) - less than book value - acquire + dividends
+        -   ideal value to sell: above intrinsic value
+    margin of safety:
+        -   diff b/w price paid and least price in the range of intrinsic value (fundamental analysis)
+        -   lower the price of share than intrinsic value: greater the safety margin
+        -   best margin of safety: when stock plummets (blood bath - sell everywhere - fear and panic)
+        -   returns > FD returns - good! (interest rate cut down -> tata motors profit will increase more) + dividends
+        -   when earning increase, price same : more margin of safety
+        -   caveat: large cap, track: more than 10 years
+        -   margin of safety: not meaning no loss (minimum loss)
+        -   undervalued (PSU) banking stocks: growth potential, dividend (govt pressure) : less risk, inflation hedge : defensive investing
+        -   when pay high - chances of losing, no guarantee stock will perform even next year as it done previous year
+        -   eg: Real estate, infra (mythical net asset value) - investor forgets senses and buy
+            -   valuing using order book and order flow - with out no idea on profitability, liquidity, debts, ability to finish contract
+            -   Real estate, infra companies - mostly operate on debt - Interest cycle is must
+            -   Consider ability to complete
+            -   how people buy growth stocks : assume future earnings > present earnings
+            -   what matters: history (but with caution - it may or may not happen)
+            -   danger in growth stocks: trading at premium (so fall will be big)
+        -   one way of safety: diversification
+        -   one can't avoid losses - only reduce
+        -   say 50% loss, even market grow at 5% -> 16 years to near the previous high
+    Psychology:
+        -   Make up the mind: no control over outcomes, understand consequences
+        -   proper mitigation mechanisms (diversify, stop loss)
+        -   most advisors: one in the herd - follow the losing side
+    speculation and investment:
+        -   speculation: assume it may increase or decrease - buy / sell / short
+        -   for someone to gain someone must lose
+        -   bond lose / gain value to adjust against interest rates
+            -   increase IR - old becomes less attractive as new one - has more value
+        -   speculator: valuable stock (new untapped sector) - value increases, popularity increases, tough times: speculator notes the weakness, price falls
+        -   A good investor: wait for growing (not sell when speculator sell)
+        -   Housing, automobile: done like contract (pay small amount, EMI) - except unlike options - verification is done
+        -   options - a small swing wipe out entire capital (5% advance is enough) + commission + taxes - more 
+        -   IFHF - enter in greed, act out of ignorance, live in hope, exit in fear
+        -   herd - just run as others run (reason for panic - unknown) -> such panic doesn't help in market as in jungle
+-   12 principles of philip carret for speculative investment:
+    1. Never hold < 10 stock (covering 5-6 sectors)
+        -   when sector is affected - you are at risk
+    2. Monitor, review portfolio - twice a year - review at least in six months
+        -   will I buy even today? - does it has quality
+        -   why 6 months - done often -> useless (fear investing always makes loses)
+    3. Invest atleast 50% of the money in income providing securities:
+    4. yield - least important part of investment (regular returns - SM is not good)
+        -   goal: emergency, education -> not good (keep liquid)
+        -   dividend paying companies:
+            -   high quality, good promoter - low yield but good future
+            -   low quality, high yield - don't grow as don't reinvest
+            -   high price. little dividend: may head for a decline period
+            -   neither grow / nor dividend - no growth potential
+    5. cut losses and ride profits:
+        -   better return (feel) - sell some stock and park in another one
+            -   undervalued? earning, asset increase steadily? valuation increase?
+        -   no personal emergency -> only reason to sell -> change in fundamentals
+        -   change in fundamentals (IVRCL infra):
+            -   good with subsidiaries - infra, road, irrigation projects
+            -   problems:
+                -   Andhra CM died - vacuum in leadership
+                -   Telangana problem
+                -   Raising interest rate
+    6. never put money - data not available
+        -   manipulation, stock only exist on paper - false info - too small to track companies
+        -   place to FIIs and then DIIs
+        -   IPO: why they need money (always check and act)
+    7. Avoid insider info trading:
+        -   may be manipulators - always do research
+    8. Seek facts diligently and never act on advice
+        -   advice - biased, not long lasting - news channels, ad - commercial interest
+        -   convenient headlines
+        -   profits - made by speculating future earning not news
+    9. Ignore mechanical formula for valuation:
+        -   P/E - to buy / sell - do research
+        -   sometimes better to buy high P/E than lower (L&T than IVRCL)
+    10. when markets at all time high - sell 50% at park in cash/ debt - short term
+        -   no one can predict lowest point - just buy low quantities
+        -   if long term story intact - don't sell - good stock ride comfortably
+    11. Borrow money when markets are down and business is depressed
+        -   never borrow to invest
+    12. 20% money from capital - common stocks - promising
+        -   allocate money - struggling companies (not due to fundamentals)
+-   Types of investors:
+    -   government uses various savings schemes money - fund debt, consumption
+    -   give subsidies (inflow), but also reduce purchase power - more inflation - more borrowing
+    -   consider % of allocation - based on time
+-   Defensive investing rules:
+    -   diversify - sector and stock wise (5 sectors, 30 stocks)
+    -   large cap, large turn over + moats (1 st or second in market position)
+    -   minimum debt (common rule: reserves + owners's funds = twice of debt, debentures, preferred stocks)
+    -   25 or more years of existence, pay dividends from a long time
+    -   not 1 stock > 20% of portfolio, sector < 40%
+    -   bank: see book value. No stocks: wait for opportunity
+-   SIP:
+    -   NYSC introduced this first. (caveat: large cap - index)
+change in portfolio: 
+    -   constant trading - churns your capital
+    -   growth stock - may double in 5 years. But when fall - lose more (As trading in premium)
+    -   Pretending stock - lose more and more
+-   Buy what you know:
+    -   advantage: can understand business and products
+    -   too high - wait for correction.
+    -   always continue lookout.
+- Why not 100% in equities:
+    -   not advisable more than 75%
+    -   who can 100%:
+        -   no emi, no need (short term, rent), own a house, can wait min 10 years, bought more in low, sleep peacefully - even in a crash
+-   **enterprising investor:**
+    -   one who buy small and mid cap, always watch market (time)
+    -   speculate in futures and options, find and exploit PSU stocks
+-   **small and mid cap:**
+    -   media - made bullish some rubbish stocks
+    -   IPO/ QIP: pass the parcel (make bullish, sell)
+    -   Narayana murthy - lost 70% equity (SKS micro finance) - 3 years lock in
+-   **Impact cost in futures:**
+    -   no seller (won't order placed on current price)
+    -   system bids 10 paise more on each share
+        -   want to buy 1500 shares (sell: 1000@99, 1500@100, 1000@101), (buy: 1000@98, 2000@97, 1000@96)
+        -   ideal price = (best buy + best sell)/2 = 99 + 98 / 2 = 98.5
+        -   actual: 1000@99 + 500@100 / 1500 = 99.33 / share (avg)
+        -   impact cost: 0.84% (when lower liquidity, more impact cost)
+        -   impact cost = **Impact Cost**:\[
+\text{Impact Cost} = \left( \frac{\text{Actual Transaction Price} - \text{Mid-Price}}{\text{Mid-Price}} \right) \times 100 \]
+        -   more actively trade - more lose to tax and brokers
+-   **Options are like insurance product:**
+    -   life of option: 30days
+    -   longer the option time: more chance of win (india: high premium for more than 1 months)
+-   **Opportunities in PSU:**
+    -   govt can change rules
+    -   major (oil, fertilizer, coal, power, finance) - decided by ministers - loss will be on minority traders
+    -   dynamic pricing - but india it is not!
+    -   state govt - won't privatize the power sector - as control will lose
+    -   agriculture, other weaker sections - free electricity - more debt
+    -   No transparent price discovery, selling at low prices - making losses
+    -   most coal: imported (US dollar), not operating in full capacity (plants)
+    -   India - one of the few large markets - bond market with high quality
+-   **finance sector:**
+    -   controlled by ministry of finance - largest borrower
+    -   using Fin institutions to piggy bank deficits
+    -   all psu must hold govt bonds beyond maturity (doesn't cover the cost of deposit)- huge loss of opportunity for psu
+    -   govt controls interest rate on bonds. makes legislation - making due recovery hard for private sectors - loss
+    -   LIC: bails out sectors - using public money (breach of IRDA - insurance)-> controlled by finance ministry
+-   **Look out:**
+-   **Good returns:**
+    -   large companies - unpopular with investors (different sector than the bubble)
+    -   temporary factors: management decisions
+    -   idea: see sales, cap, profit, debt - why unpopular, will rectified
+    -   care: avoid stocks like satyam, DLF, Uni tech
+    -   Find market's ignorance, judge - exploit
+-   **bargain issues:**
+    -   time of panic - cheap, market mostly value on mood - not on intrinsic value
+    -   method to identify: 
+        -   appraisal (last 4 year earnings, find abnormality in fundamentals)
+            -   estimate future earning if issue resolved
+        -   similar to first one - more focus to realizable asset (net current asset and working capital)
+            -   some other company can buy seeing the potential
+            -   market can - setback a company for a small issue
+    -   Judge temporary or permanent:
+        -   cyclic stocks: buy at low and sell at high (metal, cement)
+        -   But most of them are not cyclic
+        -   Any wrong doings, issues with business, fundamentals, promoter, sector
+-   bargain mid cap stocks:
+    -   worst affected in panic
+    -   mid cap - relatively large (bull market / acquired by others)
+    -   indus ind: bad promoter, when changed - turn around
+-   special situations:
+    -   large cap acquires small / mid cap (price increase) - even failed
+    -   legal actions in foreign (patent violation) - NATCO
+    -   Tata motors:
+        -   offered DVR - 1/10 th of voting rights - no need to dilute stake
+        -   2008 crisis - not subscribed - need to fund from their own pocket + raising interest rate
+        -   2011: 55-60% discount (DVR) - reason: excess supply of shares (company good)
+-   Wild swings:
+    -   violent swings - market close (2007 -> 3 down, 2 up swings)
+    -   INKTOMI (search engine company - NYSE):
+        -   2000-2002 (booming) - hit high, 1900% returns, tripled then..
+        -   news: turn over 36 million, can hit 60 billion in 5 year
+        -   what not know: loss increasing, no profit ever. 2000: valuation: 25 billion
+        -   2002: stock went to 25 cents from 231 dollars (company still existed)
+        -   neither valuation of 231$ and 25 cents is not right - but market is like this
+        -   yahoo bought the company 
+        -   stock valuation is different from company valuation: M&M bought satyam 5 times (11.50 : trading, bough at 88)
+    -   no one predicted the market
+-   how experts living:
+    -   aim to make quick money - is their source of food
+-   value company:
+    -   method:1 net worth by assessing net asset, net cash, owner integrity
+    -   method:2 compare net profit / EBITDA, calculate market cap by free float method
+    -   compare with 10 year government security 
+        -   EBITDA: when debt (depreciation, interest cost high) - consumer goods
+        -   net profit: service sector
+    free float method:
+        -   capital invested = no of shares -  market price
+        -   free float method: number of shares = total - shares owned by promoter
+        -   bull market: value depend on mood, when market expectation missed - punished
+-   Mind of an investor:
+    -   human mind: see patterns (release dopamine) - even no pattern, tries to make up one
+    -   leads to gambling (cricket - no pattern), market - few times up
+    -   technical analysis: can give mood info (pain of lose hurt twice than profit in market)
+    -   fear - sell instead of buying
+    -   study: people who track the market make half of who don't
+    -   Intelligent: buy when company is in trouble, don't when performing well
+    -   Take contrarian approach, favour dumped stock, dump favoured stocks by market
+        
+## chapter 5: Annual report and investor:
+-   Annual report: most (close books at march), some(Jan-Dec) - subsidiaries of MNCs
+-   financial statements: 
+    -   balance sheet, P&L, cash flow statement, notes on account, auditors report, chairman's letter, management discussion analysis, senior employee list and remunerations to them
+-   Use:
+    -   segment wise financial figures, sales (domestic, exports), production
+    -   sale: internal sale, external sales, selling and general expenses
+    -   details of highly paid employees, qualification, experience (compensation and commission paid to the CEO)
+    -   tax details (state, central)
+    -   properties and facilities own/lease
+    -   Investment data - firms, groups, debt/equity markets
+    -   debt data - secured / unsecured loans, future plans
+    -   Infra companies: project info
+    -   working capital usage, turn over
+    -   ageing analysis of debtors, position of creditors
+    -   cash flow positive?
+    -   fresh order booked, pending orders
+    -   stock holding pattern, promoters borrowing against the share (% pledged)
+    -   value to sales to large customers, sales in terms of no.of customers
+    -   Auditor info, changes in accounting principles
+    -   amount paid to promoter / relatives
+    -   spent / earned in foreign exchange
+    -   subsidiary, %ownership - details, consolidated financial statement
+    -   cases filed by the company against competitors, suppliers or customers
+    -   tax claimed / disputed / writeoff details
+    -   R&D , patents, hedging positions
+    -   stock option details to employees
+-   good investor:    
+    -   read from last to first page, calculate ratios
+    -   look at foreign exchange - external borrowing, foreign currency convertible bonds (when rupee depreciates by 20%, their debt also goes up by 20%)
+    -   profit / loss - foreign exchange - must be shown in P&L
+    -   FCCB - management think no need to pay cash, when condition worsen: no body wants share, want money (depreciated rupee - more losses)
+    -   consolidated results - true picture than standalone numbers
+    -   FCCB - need to dilute stocks - EPS will decrease
+    -   Transparency is must, how much bad news the company is willing to share
+-   Balance sheet analysis:
+    -   On closing day - asset, liability info
+    -   parts: asset, equity, liability (secured loan, unsecured loan)
+    -   secured loan: collateral (low interest, risk of losing)
+    -   unsecured loan: based on credit worthiness, high interest
+    -   Indian company: liability and shareholder's equity are grouped together (source of funds), asset (application of funds)
+    -   Reserves and surplus: capital reserves, retained earnings, or any surplus from issuing shares at a premium.
+-   Fixed asset sections: 
+    -   gross : total assets (not for sale), compare between years (cost of machinery, asset growth)
+    -   accumulated depreciation and amortization (not a cash expense)
+        -   depreciation: applied to fixed assets
+        -   amortization: applied to intangible assets (goodwill, patents)
+    -   net block: gross - accumulated depreciation / amortization (residual value of fixed assets) - not true value (inflation, market value may be high)
+    -   capital work in progress (including advances) - paid for construction / infra
+    -   investment: MF, bonds, joint ventures (short term - park - can redeem anytime)
+    -   current asset: inventory, cash, bank balance, loans given, advances given
+    -   current liability: short term credit, bills
+    -   net current asset: current asset - current liability (invest / buy / dividend)
+    -   book value: net worth per share 
+-   Six important points:
+    -   How much capital - invested (incase opportunity can use it to acquire business)
+    -   How much capital - no need to borrow, sell equity / give fresh equity
+    -   compare P&L and balance sheet - 
+        -   development expenses are amortized over years as expenses 
+        -   Rearrange assets to reduce taxes / boost profit - cooking the book
+        -   cooking the book - sell and lease the asset
+    -   balance sheet figure: measure returns per share - compare
+    -   earnings in relation with asset value and net worth, earning: (from business, investment and other activities)
+    -   study capital structure, self reliance (no borrow), can pay credit or dividend
+    -   when large debt > net current asset -> caution - sooner when interest rate increases - cost increase - problem
+        -   suzlon: low interest rate: reckless borrowing, increasing book order, issued FCCB, acquired foreign companies
+        -   pantaloon: borrowed and expanded retail - finally selling other assets to fund pantaloon
+        -   king fisher: lease, fuel, salary (dollar) - gone bankrupt
+        -   punj lloyd: acquisition, loans - company tried to acquired - not good (Libya projects)
+    -   quality auditor: will have found - net asset decreased by 50% (due to dollar loans - no one wanted shares)
+real estate stocks and debts:
+    -   vanguard of bubble, sell more loan, more debt funds - interest rate is low
+    -   when tightens - defaulters, bubble
+    -   analysis of balance sheet of real estate or financial or infra - must
+-   Profit and loss statement:
+    -   sales, taxes, expenses
+    -   gross sales: after tax deduction
+    -   other income: not part of regular business
+        -   abnormal, high - remove other income, evaluate
+        -   gross profit: net revenue - expenditure
+        -   EBITDA: amount after deducting expenses except depreciation, interest, taxes, amortization
+            -   Earnings Before Interest Tax Depreciation and amortization
+        -   minority interest: when has listed subsidiaries - need to provide share of profit
+        -   provision for income tax: any dues (Can pay).
+    -   Net profit: useful in EPS, Net Profit Margin (NPM: profit as percentage of net sales, EPS: amount added to book value next year less dividend)
+    -   Dividend: taxable at source, rest of profit: carry forward to balance sheet
+    -   non cash expense: depreciation, amortization (tax planning)
+        -   examine salary paid to promoter and relatives
+    -   Important info:
+        -   discount, goods returned stated clearly (recall, repair, glitches): eg: Intel pentium
+        -   sales to subsidiaries - separately (judge how independent) - book cooking
+        -   no mismatches in inventory, inventory valuation, nature of profit
+        -   where purchases - from relations?
+        -   dividend: dividend income, subsidiaries income - separate
+        -   other income: lease, investment, purchase / sell of companies, assets, any extra payment to promoter
+        -   history of P&L: can project
+-   Cash statement:
+    -   life blood - money.
+    -   company may be profitable but has negative balance
+    -   unnecessary debt (not for capital) - bad. True picture of company's position
+    -   companies go bankrupt - no liquidity not because they are not profitable
+    -   cash flow from 
+        -   operations: interest/ income from listed or unlisted securities (before tax, non cash expenses (depreciation, amortization, loss or profit from unrealized currency exchange))
+        -   investment: sale of prior investment or outflow for fresh investment
+        -   financial activities: raise money from debt or equity 
+    -   discounted cash flow:
+        -   money in hand today > money accrued.
+        -   fantasy: projections on future earnings
+            -   convince bankers, debt investors - pessimism
+            -   avoid acquired by other company, when share value plummets
+        -   return on capital investment. Nothing like transparent valuation (assumptions are there)
+-   Notes to account and auditor's report:
+    -   basis of preparation, consolidated statement of accounts
+        -   info on other income
+        -   third party transaction
+        -   foreign subsidiaries book of accounts
+        -   asset, liability in foreign currency, hedging, derivatives
+        -   patent, contingent liability (future probable), patent, lawsuit, merger, devaluation
+        -   how defines intangibles and good wills
+        -   list of subsidiaries, inventory policies, identify COST of raw material
+        -   auditor quality, any discontinued investor
+-   Auditor's report:
+    -   books prepared by the company: audited by CA (certify - book, report)
+    -   independent valuation (difference opinion: must mention)
+    -   punj lloyd:
+        -   auditors published several qualifications in their report
+        -   if applied to statement of accounts - books value reduced by 50%
+    -   king fisher:
+        -   noted - company won't be considered as going concern unless promoter brought in fresh equity
+        -   repairs can't be capitalized, not remitted tax
+    -   central bank of india:
+        -   declared profit, dividends (govt of india, share holders)
+        -   not provided pension and gratuity as per RBI norms
+    -   sometimes: better to takes loss and exit than lose everything
+    -   examine - no serious problems - buy 
+    -   annual report: management on right track
+-   note on equity funds in the balance sheet:
+    -   reason for failure: lack of capital, excess debt
+    -   too much capital (equity + retained earnings) - problem (reduced return)
+    -   TCS: acquired many, Infosys: parked money
+    -   sometimes - due to depressed state: may be below book value
+    -   successful company: deploy money and generate more
+    -   sometimes: better to let go (air india)
+        -   bailed out using tax payers money - loss
+        -   better judgement: sale not put more money
+        -   public sector: lack of accountability, weak management 
+        -   good sell: punjab bank to HDFC (when expansion is tough)
+    -   consider:
+        -   profitable, ROE
+        -   avoid when working independent of profit (govt), assured bonus, low working hours, pension - even not profitable
+        -   management is competent, share holders - can put pressure (even after listing - govt decided coal price - low)
+        -   company must have pipeline of products to sell (even if sale decreased)
+    -   market price: mood of the market (not based on business value)
+        -   sometimes - market is very nervous, media paints ugly picture
+        -   small cap / mid: sell (may look foolish - when increase) but broke when goes down
+    -   value above price, specific pessimism (sometimes even good - not good enough for experts)
+-   why technical analysis won't work:
+    -   charts - pattern suggest course in the past (not sure in future)
+    -   chart reading - not a science, can't predict (when many use charts - waste)
+    -   practice can't be continuously successful - many copy - won;t work
+    -   theory: 
+        -   direction: based on interested participants (psychology, market conditions)
+        -   24*7 news: if so profitable - must be mystery 
+        -   all would be buffet, peter lynch, fisher, carret, soros, templeton 
+    -   fundamental: using math, book value, roe, roc (for years)
+    -   chartist and stop loss: 
+        -   wants profit everyday, stop loss: escape stratergy
+        -   investor: market - pick and manage stocks, liquidity to buy (take small bets - undervalued stocks)
+        -   review portfolio once a month or quarter 
+        -   you can't control profit but losses
+
+## chapter 6 : Ratios:
+-   garbage fed, garbage out (no particular reference point)
+-   buffet- not bought tech stocks 2000, still richest, doing well
+-   IBM (less failure rate than google or apple). market has higher expectations
+-   ratios: judge capacity of earning, solvency, net worth
+    -   when blood: more valuable, attractive, below book value
+    -   out of favor stocks - identified using ratios
+-   book value:
+    -   what share holder would receive if liquidated and all creditors settled
+    -   net worth = equity + asset - liability
+    -   book value = net worth / no of shares
+-   asset values and investment values:
+    -   After narasimham committee - must specify not performing asset, collected, non collected interest, unrecoverable fund
+    -   before 1991 - bonds always held till maturity - nobody knows how much floating bonds
+    -   bonds: liability of the bank (private sector bank: better loan books)
+    -   net interest margin: rate funds loaned - cost of fund
+    -   Intangibles and valuation: 1991 (followed india - process patent), only physical asset are assets
+    -   must depreciate, income from goodwill etc : must after 1991 - considered
+-   who uses book value:
+    -   finance sector (asset - loan book)
+    -   public utilities (guarantee min return)
+    -   avoid companies with negative net current asset
+    -   net current asset = CA - CL (pantaloon), tata, aditya birla (exceptions - can pay from other group companies)
+    -   sterilite:
+        -   equity: 336.12 cr, reserves: 41,0099.36 cr
+        -   debt per share: 34.89
+        -   336.12 + 410099.36 / 336.12 (no of shares) = 123.32 - 34.89 = 88.43
+        -   EPS = 23, current alternative book value = 123.32 + 23 = 146.32 (without reducing debt) 
+    -   Dr reddy:
+        -   equity = 84.6, reserves = 5935.6, no of shares = 16.92 (face value = 5)
+        -   84.6 + 5935.6 / 16.92 = 355.8
+        -   secured + unsecured loans = 1441.1 + 7
+        -   debt / share = 85.7, book value = 270.1
+        -   minus dividend per share, plus EPS
+-   Earnings:
+    -   from P&L: EBITDA, net profit after tax
+    -   EPS = net profit / no of shares
+    -   cash earnings per share = EBITDA / no of shares
+    -   Estimate future earnings using assets (tangible and intangible), draw trend, extrapolate
+    -   note: future is uncertain
+        -   safety of price paid
+        -   diversify as hedge
+    -   boom and lean period: judge companies, resilience
+    -   environment and business factors affecting the company (short term, long term)
+-   factors:
+    -   volume of sales
+    -   price realized by sales
+    -   cost of production
+-   any development in the above factors: good
+-   product line change:
+    -   whoever bids low - but coal price - coal india take turn - govt unwilling to intervene
+    -   some close the door - when faced loss, while bajaj turned fortune with joint venture with kawasaki
+    -   reason: product line change (tata tea: starbucks - coffee retail joint venture, pepsico)
+-   special advantage:
+    -   not due to regulator (PSU banks), but exposed faced competition - shut down
+    -   change in management can bring fortune (some fortune, some closed the entire group (kingfisher))
+-   deal with deficit earnings:
+    -   bad year - when indications (conditions will improve) - ignore
+    -   eg: dr reddy (regulation in germany - writeoff good will writeoff, sold generics business)
+    -   tata motors: heavy loss - passenger car development
+-   ITC: regular profit increase, new markets
+-   bajaj auto: 
+    -   auto companies: sensitive to interest rate
+    -   bajaj: high margin, exports, negligible debt (quantitative and qualitative factors)
+-   PE or ROX:
+    -   markets don't know everything, irrational, ignore fact but on emotions
+    -   buy when depressed, sell at high, buy at low
+    -   PE = market value / EPS (compare PE over time), other companies in the sector
+    -   may be temporary PE - compared with history
+        -   PEG = (P/E ratio) / Annual EPS growth rate
+        -   1 = fair, < 1 : undervalued, > 1 : over valued
+        -   ITC (EPS growth = 23%) -> 28.7 / 23 = 1.25 (overvalued)
+-   price to sales ratio:
+    -   PSR = market cap / (sales - taxes)
+    -   taxes: excise, custom duty, vat
+    -   PSR < 1 : ideal to enter. don't buy > 2.5, sell > 6 PSR
+    -   PSR of large cap are lower than PSR of small companies
+    -   ITC: 781.84 -  231 / 2917952 = 6.18
+-   return on invested capital (ROIC):
+    -   ROIC = net profit / (equity + borrowings)
+    -   ability to deliver returns (expressed as percentage)
+-   return on capital employed:
+    -   ROCE: EBITDA / (equity funds + borrowings) -   100
+    -   ROE = net profit / share holder funds
+    -   Return at market price = net profit / market cap - 100
+-   high growth stock: market chases - price goes up - low returns (can't satisfy market)
+-   high growth stock - usually high price - useless to buy at such price
+-   net profit expands - 20% -> easily double rate of returns excluding dividends
+-   dividend yield:
+    -   (dividend / share price) - 100
+    -   dividend payout ratio = (dividend / EPS) - 100
+    -   troubled companies pay more dividend
+    -   investor: choose company better use of profit than dividend
+    -   when too much cash, no dividend: without expansion / acquisition - problem
+    -   when invested in low value return expansion - problem
+
+
+
+
+-   people:
+    -   George soros: jew. (Alchemy of finance)
+    -   John Maynard Keynes
+    -   Friedrich August Von Hayek
+
+
+
+## Books to read:
+-  Alchemy of Finance
+-  Peter lynch, buffet, fisher, graham, carret Books
+-  intelligent investor
+-  security analysis - Graham and Dodd
+-  fundamentals of economics
+-  interest rates and central banks 
+-  boom burst theory
+-  Richard Cantillon - manuscript - 17th century
