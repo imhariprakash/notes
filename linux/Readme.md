@@ -110,6 +110,8 @@ commands:
     > cp file1.txt hello.txt or cat file1.txt > hello.txt
     > cp -r directory1 directory2 (copy all files)
     > find / -i path "*joe*" > dev/null (ignore lower case, move to bin)
+    > diff file1.txt file2.txt (compare two files)
+    > diff -wy file1.txt file2.txt (ignore whitespaces)
     
     options:
     - i: interactive

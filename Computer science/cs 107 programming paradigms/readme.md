@@ -6,6 +6,11 @@
 
 ## Important points
 - **functions:**
+  - strchr(data, ","): return pointer to the char matching
+  - fgets: read i/p until new line or end of file (from a file stream)
+  - fopen(dta.txt, "r") -> read mode, w: write mode, a: append mode
+  - feof()-> check for EOF
+  - rewind() -> move the file pointer to the beginning
   - strcpy: copies one char after other (not dynamically - no need to free)
   - strdup("Hello") -> stores the string in heap (string space) and returns address pointer
   - memcpy: takes source and destination pointers and copy the bytes (size given) from source to destination
@@ -16,6 +21,11 @@
   - memmove(dest*, source*, size): similar to memcpy, but handles overlapping memory
     - as memcpy doesn't handle overlapping it is efficient but memmove is not
   - free: frees the memory allocated by malloc
+  - calloc: initiates with 0 (in case of int)
+  - getLine(): read a string of any length (uses dynamic allocation)
+    - sounds like fgets but not! (getLine: read single line from the file specified in the third argument)
+    - read continuously until /n (each char copied to buffer), pass /0 to indicate end
+    - difference: getLine uses malloc and realloc while fgets uses stack memory
   - function prototype declaration
     - correct: int (*myFn)(void*, void*)
     - wrong: (int) (*myFn)(void*, void*) // no need to cast, mention return type
@@ -1224,8 +1234,9 @@ _start:
     MAX(40.2, "hello") -> compilation error
 ```
 -  **Disadvantages of macros:**
-    -  no type checking: MAX(40.2, "hello") -> compilation error
+    -  no type checking: MAX(40.2, "hello") -> compilation error (no declared types)
     -  no scope: can be used anywhere in the program
+    -  no need to be a valid c expression (only text resulting from it need to be valid)
     -  no debugging: no way to debug the macro / assert statements
     -  no return value: no return value, just replace the value 
     -  no semicolon: must be careful while using macros
@@ -1955,3 +1966,9 @@ void thread_function() {
     -    _FILE_: current file name as a string
     -    _LINE_: current line number as int
     -    _STDC_: 1
+
+
+## Tools:
+-   valgrind: memory tools (free memory, memory leaks, memory corruption, dynamic memory allocation issues)
+-   hel grind: issues related to multi threading
+-   call grind, mass if

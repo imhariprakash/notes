@@ -58,6 +58,11 @@
     -    (char) 65 -> A
     -    (int) 'A' -> 65
 
+##  Array:
+```
+    int myArray[4] = {0}; // first element alone 0
+```
+
 ##   **Functions:**
 -   **Function prototype:**
     -    return_type function_name(data_type parameter1, data_type parameter2, ...)
@@ -232,7 +237,12 @@ int main()
          -   array + 1 -> if int array: 4 bytes (next element)
          -   array + 2 -> 8 bytes (2nd element)
          -   *(array + 1) = 5;
--    
+```c
+    int a = 1;
+    int *addressOfA = &a; // store address of a in addressOfA
+    int **addressOfAddressOfA = &addressOfA; // store address of addressOfA in addressOfAddressOfA
+    int ***addressOfAddressOfAddressOfA = &addressOfAddressOfA; // store address of addressOfAddressOfA in addressOfAddressOfAddressOfA
+``` 
 ```c
     int * addressOfA = &a; // store address of a in addressOfA
     int b = *addressOfA; // store value of a in b
@@ -264,6 +274,7 @@ int main()
 -   Allocate memory at runtime (heap), persist in user managed heap (stdlib: malloc, calloc, realloc, free)
 -   Not exactly allocated -> as need to include meta bytes also (how subsequent calls of malloc knows - how much free space is available)
 -   based on architecture - allocates in multiples of 4,8,16 bytes + meta
+-   calloc: allocates with 0 (initiates)
 ```c
     (returns pointer)
     malloc(sizeof(int)); // allocate memory for 1 int
@@ -277,6 +288,7 @@ int main()
 ```
 
 ##  Struct
+-   . : member selection operator (group related info together)
 -   Arrow pointer:
     -    dereference struct (-> has higher order of precedence than &, no need for parentheses)
     -    studentStructPtr -> firstName
@@ -313,4 +325,202 @@ int main()
         printf("%d %s %f", s->roll, s->name, s->marks);
     }
     display(&s1);
+    
+    return struct: copied to the calling function 
 ```
+
+##  Different way to define struct:
+-   Struct itself is not a type tag (typedef is)
+```c
+Method 1:
+    struct student
+    {
+        int roll;
+        char name[20];
+        float marks;
+    };
+    
+    struct student s1 = {1, "John", 99.9};
+    
+Method 2:
+    struct
+    {
+        int roll;
+        char name[20];
+        float marks;
+    } s1 = {1, "John", 99.9};
+    
+Method 3:
+    typedef struct
+    {
+        int roll;
+        char name[20];
+        float marks;
+    } student;
+    
+    student s1 = {1, "John", 99.9};
+    
+Method 4:
+    typedef struct student
+    {
+        int roll;
+        char name[20];
+        float marks;
+    } student;
+    
+    student s1 = {1, "John", 99.9};
+```
+```c
+    struct assignment
+    
+    *point p = {3,4} -> ordered (x = 3, y = 4)
+    *point p = {.x = 3, .y = 4}
+```
+
+##  Other uses of type def (alias type name)
+```c
+    typedef unsigned char rgb_type;
+    rgb_type red, green, blue;
+    rgb_type getRed();
+```
+
+##  Enum
+-   Enumerated data type (user-defined data type)
+-   List of named integer constants
+```c
+    enum days {sun, mon, tue, wed, thu, fri, sat};
+    enum days today;
+    today = sun;
+    printf("%d", today); // 0
+    
+    enum threat_level_t {
+        LOW = 1,
+        MEDIUM = 5,
+        HIGH = 10
+    } // if not mentioned -> 0,1,2
+```
+
+##  Constants:
+```c
+    int a = 12, b = 1;
+    const int *p = &a; 
+    p = &b;
+    printf("%d", *p);
+    
+    // allowed to change a = 100, not allowed: *p = 100
+    // allowed to change p = &b.
+    
+    Note: can change the value of p but not the value it points to via the pointer  
+```
+
+##  Memory checking tools
+-   val grind : compiler options -fSanitize=address
+
+##  Graphs
+-   scatter plot: relation b/w 2 variables (patterns)
+-   histogram: exam score (shape of distribution)
+-   line chart: average temperature (trend) - 10 years
+-   pie chart: market share (proportion)
+-   bar chart: sales (comparison)
+-   box plot: distribution of data (spread, median, outliers)
+
+
+##  **Rectangle program:**
+-   Top-down design: put things separated
+```c
+    logic: (2 rectangles: intersect) -> r1 wider than r2, r1 taller than r2
+        left = max(r1-> left, r2-> left)
+        right = min(r1-> right, r2-> right)
+        top = min(r1-> top, r2-> top)
+        bottom = max(r1-> bottom, r2-> bottom)
+    
+    typedef struct{
+        float left, bottom, top, right;
+    }rectangle;
+    
+    rectangle intersect(rectangle r1, rectangle r2)
+    {
+        rectangle r;
+        r.left = max(r1.left, r2.left);
+        r.right = min(r1.right, r2.right);
+        r.top = min(r1.top, r2.top);
+        r.bottom = max(r1.bottom, r2.bottom);
+        return r;
+    }
+    
+    float min(float a, float b)
+    {
+        return a < b ? a : b;
+    }
+    
+    float max(float a, float b)
+    {
+        return a > b ? a : b;
+    }
+    
+    int main()
+    {
+        rectangle r1 = {0, 0, 2, 2};
+        rectangle r2 = {1, 1, 3, 3};
+        rectangle r = intersect(r1, r2);
+        printf("%f %f %f %f", r.left, r.bottom, r.top, r.right);
+        return 0;
+    }
+```
+
+##  Compilation:
+-   Recompile every file (lot of source files) -> lot of time
+-   solution: manually pick, use make (need some file -> recompile changed file alone and relink)
+```
+    > make
+    > ./program
+    > emacs file.c
+    > make (only changed files alone compiled)
+    
+    use atleast
+    -Wall -Wsign-compare -Wwrite-strings -Wtype-limits -Werror
+```
+
+##  Testing:
+-   **Black box testing:**
+    -    test the program without knowing the internal logic
+    -    test the program based on requirements
+    -    **Types:**
+        -    equivalence partitioning: divide input into groups
+        -    boundary value analysis: test the boundaries
+        -    decision table testing: test all possible combinations
+        -    state transition testing: test the state transitions
+    -   **Advantages:**
+        -    easy to test
+        -    no need to know the internal logic
+    -    **Disadvantages:**
+        -    not thorough
+        -    may miss some bugs
+-   **White box testing:**
+    -  test the program based on internal logic
+    -  test the program based on code
+-   use assert (check something is true and abort)
+-   **Unit testing:**
+    -    test individual units of code
+    -    test the smallest unit of code
+    -    **Types:**
+        -    function testing: test functions
+        -    module testing: test modules
+        -    class testing: test classes
+        -    method testing: test methods
+    -    **Advantages:**
+        -    easy to test
+        -    easy to debug
+    -    **Disadvantages:**
+        -    time-consuming
+        -    need to test all units
+
+##  Buffer overflow:
+-   Check for i/p: say expecting 10 characters -> if more than 10 -> buffer overflow
+-   customer can enter any commands -> vulnerability
+-   memory leak: lose all references - block memory (can't be used by others, still not free by program)
+-   double free -> also caused error (undefined behavior)
+
+
+## Exercise: poker game simulation
+<img src="resources/hands.jpg" width="500" height="300">
