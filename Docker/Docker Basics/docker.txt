@@ -1,0 +1,737 @@
+Docker:
+    * written using Go programming language, uses many features of linux kernel
+    * technology: namespace (provide isolated workspace) - layer of isolation
+    * core concept: containerization (self contained entity, isolated, consistent behavior)
+    * why: runs on my machine, but error in production (dependency, versions)
+    * platform: pack, deploy and run applications : laptop, cloud, system - anywhere
+    * container: little boxes - everything the app needs (files, libraries, programs, settings, configurations)
+    * container: isolated, encapsulated, portable, scalable, efficient
+    * Images can be ran in a container - processes take resources like any other executables
+    * decouple from infrastructure
+    * Applications:
+        * Environment for QA and testing
+        * cross-platform development using images 
+        * isolate and encapsulate dependencies
+        * scale in real time, efficiently reuse images (just share - let them use)
+    * Example:
+        * mongoDB container
+        * mysql container
+    * several containers can be instantiated for a same image
+
+why docker:
+    * isolated, portable units: pack config, deps, code
+    * image management: create, save, distribute
+    * networking: container networking, service discovery and inter-container communication
+    * volume: persist data outside of containers 
+    * security: separate containers and manage access
+    * scalability: add more instances
+    * orchestration: integrate with kubernetes: handle deployments with numerous containers
+    * development workflow: standardized environment for development, testing and production
+    * microservices architecture: modularity, scalability, light weight: perfect for microservices design
+    * CI/CD: easy integration with CI/CD workflows
+    * cloud native development: deploy in cloud environments effectively
+    * legacy app modernization: upgrade legacy apps - increase manageability and portability
+    * devops: simplify infrastructure management - more power to devops team
+
+docker hub:
+    * cloud based service: store, share, manage docker images 
+    * vast images, collaboration, tools, versioning and tagging, access control
+    * webhooks: auto initiate CI/CD workflow 
+
+working:
+    * containers: isolated environments - each having own file system, network and processes
+    * run container: need image (snapshot of app and its dependencies - docker script)
+    * docker script: instructions to build an image
+
+life cycle:
+    * create an image (blue print)
+    * containers host an image - start, stop, pause, restart, remove if no longer needed
+    * docker is not PaaS or IAAS (platform as a service / Infra structure as service): simply containerize : works nicely with PaaS and IAAS
+
+VM:
+    * virtual machine: mini computer - own OS, won't share anything with main computer / other VMs
+    * VM: Highly isolated
+    * docker containers: like VM (no own OS) - so efficient and fast
+    * docker: no kernel level virtualization like VM instead container engine - create containers
+    * VM: hypervisor -> guest os -> bins/lib -> app1
+    * slow start up time: boot entire OS
+
+container:  
+    * light weight, loosely isolated 
+    * unit for sharing (cloud), testing app
+    * uses operating system's kernel
+    * won't mimic full hardware systems like VM
+    * container: OS (main OS) -> container engine -> bins/ lib -> app1_container, app2_container
+
+difference:
+    * vm: tightly isolated, docker: loosely isolated containers
+    * docker: share resource of main computer (OS) - efficient and fast
+    * VM: own OS, hardware resources - independent and secure + heavy and slow
+
+Docker vs VM:
+    * OS: shared, separate
+    * performance: fast, slow
+    * portability: easy, hard
+    * security: low, high
+
+architecture:
+    * images stored in registry: docker hub 
+    * pull / create an image 
+    * run an image in a container
+    * client server architecture:
+        * client communicates with docker daemon (Rest API over unix sockets or network interfaces)
+        * daemon: create, execute, distribute docker objects
+        * client operates with daemon on the same host - communicate via socket/ rest api / network
+        * docker-compose: another docker client - work with set of containers
+
+container, image, volume, network:
+    * container:
+        * box - put everything, isolated from other boxes - own program, dependencies, configurations
+        * share same system as main computer - no separate OS
+        * running instance of a docker image
+    * image:
+        * recipe to make a container - dockerfile script
+        * use same recipe - anywhere
+        * uses a tiered file system:
+            * each layer has downloading instructions, config
+            * only the updated layer need to be recreated and delivered - update image
+        * docker images are read only templates:
+            * any change - made to the program - won't affect image
+            * clear distinction between image and container (run state)
+        * layers:
+            * docker image: several layers on top of one another
+            * while building: each instruction: a layer added on top of the previous layer
+            * once layer created: immutable, easy for docker to reuse - speed up build time, less space
+    * volume:
+        * external drive - save data (database, logs, config files)
+        * even container is deleted - volumes are not deleted
+        * share volumes between containers / access from main computer
+        * best way to save date: easy to backup, move, manage
+    * network:
+        * containers can communicate with each other
+        * default: separate containers
+        * using network: build virtual networks that let containers communicate safely with one another
+        * complexity: simple to complex (driver options): default bridge network
+        * bridge:
+            * default network - can't communicate with outside world
+            * communicate with one another and not the outside world
+        * overlay networking:
+            * communicate across multiple hosts
+            * create a virtual network: locally connect all hosts
+
+host driver:
+    * enables docker to work seamlessly with local machine resources
+    * uses machine's native network capabilities to enable low level ip tunneling and data link layer encryption across docker apps on various endpoints
+
+macvlan driver:
+    * assign address to containers and have them behave like physical devices
+    * communicate container using MAC rather than IPs
+
+docker storage:
+    * container's writable layer: 
+        * lose data when container stop/ restart
+    * alternatives:
+        * data volumes: persist data, rename volumes (s3 or azure)
+        * volume container: dedicated container hosting volume - share across containers
+    * directory mounts:
+        * mount host's local directory (any directory from host)
+    * storage plugins:
+        * connect to external storage (mapping host's drive to external source)
+        * eg: GlusterFS storage
+
+docker daemon:
+    * manages docker objects like images, volumes, containers, networks, etc...
+    * docker daemon + docker client (docker client lets users communicate with docker daemon)
+    * docker client = 2 components (command line interface, rest api)
+    * docker daemon can communicate with other daemons in the host machine 
+        * eg: swarm cluster: host machine daemon can communicate with docker daemon to complete tasks
+    * resource isolation, networking, container life cycle: daemon takes care
+    * also: carry out user commands from docker client
+    * docker daemon main components:
+        * docker engine 
+            * containerd: manage life cycle of containers
+            * runc: complies with OCI (open container initiative) specs to implement the container run time
+            * libnetwork: networking support for containers, allow comm between another and external networks
+            * swarmkit: orchestration functionalities to oversee docker cluster, enabling robust and scalable container deployments
+        * docker rest api:
+            * end points to connect with daemon - for users
+        * docker cli:
+            * build, run, inspect, manage objects using commands
+        * docker registry:
+            * store docker images
+
+states:
+    * created: container is created  (not yet running): reserves volumes, network interfaces - not yet begun
+    * started / running: launched, using cpu, memory and other resources
+    * paused: process suspended (not in use): resource conserving and debugging without completely stopping it
+    * exited: finished executing, ceasing to run any processes : can completely remove the container in this stage
+    * dead: irreversible error / abrupt termination (critical errors: aoo, host system, manual stop): manually release resources (to do manually - delete container) - as they can't be restarted
+
+
+base image:
+    * bare minimum runtime environment and os
+    * centos, ubuntu, debian : commonly used 
+
+docker objects:
+    * image, container, network, volume, plugin, other items
+
+docker file:
+    * instructions to create an image - file, directories, deps, config
+
+image registry (docker registry):
+    * docker hub, google container registry, amazon elastic container registry, azure container registry, github container registry
+    * centralized area: share, manage, distribute images
+    * scan for security flaws, versioning and access control
+
+Tagging:
+    * repo name and tag : unique id of docker images 
+    * latest tag is chosen - when no tag is given
+
+layer caching:
+    * while construct images, use previously built cached layers
+    * big projects: makes difference
+    * image layers: fundamental components of images (read only)
+    * stack layers, reuse.
+    * layers:
+        * base layer: os, runtime (majorly: existing images of os, runtime)
+        * intermediate layer: single docker file instruction: deps, config
+        * top layer: app layer / actual code
+    * working:
+        * search for layer matching instruction: reuse
+        * invalidate cache and re-cache
+    * benefits: speed build, resource efficiency, consistency
+    * security: have cache invalidation, using old cache layer - cause security problems
+
+tips to minimize layer caching in dockerfile:
+    * start with stable base image 
+        * FROM ubuntu:20.04
+    * group instructions by volatility (how often change - start with least)
+    * install deps together - reduce number of layers
+    * separate app code and deps
+    * multi stage building:
+        * intermediate stages: cache separately
+    * use .dockerignore file:
+        * ignore files / directories from caching - not required for the image
+    * explicit versioning:
+        * use specific versions while installing
+
+ports:
+    * 4000:27017:
+        * 4000: port on host machine
+        * 27017: container port
+    * map port 4000 (host machine) to port 27017 of container
+    * available ports:
+        * 80: HTTP
+        * 443: HTTPS
+        * 22: SSH
+        * 3306: mysql
+        * 5432: postgres
+        * 6379: redis
+    * common ports:
+        * 0 to 1023: system ports (reserved)
+        * 1024 to 49151: registered ports: (user level app and services)
+        * 49152: 65535: dynamic or private ports (ephemeral purposes like client side ports in network communications - safe to use for custom applications and docker containers)
+        * 4000-4999: common web dev purposes
+        * 5000-5999: dev servers and applications
+        * 6000 and above: free for any custom use
+    * practical limit:
+        * TCP/IP protocol: max port number = 65535 (2^16 - 1)
+        * same applies for laptops, networking devices and servers : Universal standard
+
+docker compose:
+    * run multiple containers as single service (nginx, mysql : create a file)
+    * define application services in a YAML file, use single command to start / stop all the services
+    * YAML: strictly follows indentation
+    * file name: docker-compose.yml (sample)
+    * purpose:
+        * mention services, order of starting
+    * configurations:
+        * version: docker-compose version
+        * services: services to run
+        * image: image name from docker hub
+        * ports: port mapping
+        * environment: environment variables
+        * restart: if the container stopped, restart it
+        * depends_on: a container is dependent on some other container
+        * volumes: which volume to use to store data
+
+data persistence:
+    * data won't persist
+    * container is removable / detachable item
+    * when removed: anything mentioned in docker-compose file also removed
+    * good: each time start new
+    * default: docker creates and uses volume (assuming you might want to store data)
+    * bad: database - we need to store everything - can't start new : volumes
+
+volumes:
+    * one way to achieve data persistence
+    * store data outside of container's environment to access from anywhere even restarted
+    
+Dockerfile:
+    * eg: Dockerfile
+    * text document: instructions to create an image (base image, commands to install deps, run scripts, add config)
+    * automate deployment process
+
+Dockerfile instructions:
+    * FROM : base image
+    * RUN : execute the command while building the image
+        * install package, update libraries, setup
+    * COPY ./app /app : copy files and directories from host to container image
+    * ADD : advanced copy - auto decompress archives and fetches files from URL
+        * eg: ADD https://web.com/file.tar.gz /app
+    * WORKDIR /app : from this directory - subsequent commands are executed
+    * ENV MY_APP=my_app : environment variables
+    * EXPOSE 8000 : container listens on the network port while running
+    * CMD ["python3", "main.py"] : 
+        * only 1 CMD per Dockerfile: last one is considered
+        * CMD ["python3", "main.py"] : python3 is the command and others are arguments
+        * eg: CMD service mysql start && service postgresql start && service redis-server start && tail -f /dev/null
+        * good way: CMD ["/usr/local/bin/start-services.sh"] : run a sh file
+        * 3 forms:
+            1 CMD ["executable","param1","param2"] (exec form)
+            2 CMD ["param1","param2"] (exec form, as default parameters to ENTRYPOINT)
+            3 CMD command param1 param2 (shell form)
+    * ENTRYPOINT:
+        * ENTRYPOINT ["python3", "main.py"]
+        * configure a container that will run as an executable
+        * ENTRYPOINT is typically used to set up the main command that cannot be easily overridden
+        * used CMD to supply default args to entrypoint
+        * If want shell processing - use shell form
+    * difference between cmd and entrypoint:
+        * case : 1: (shell or exec form)
+            CMD alone used - CMD ["executable","param1","param2"] : execute commands
+        * case : 2: (used to supply default arg to ENTRYPOINT)
+    * LABEL:
+        * provide meta info like maintainer, image details, version, description
+    * ARG:
+        * ARG version=1
+        * while building (--build-arg) give arguments to be used in build
+    * VOLUME:
+        * creates mount point with the given name (from host os or other containers)
+    * USER:
+        * set username  (UID or GID - GroupID)
+
+Dockerfile best practices:
+    * Use official images
+    * Use multistage builds
+    * minimize layers - combine related commands into a single RUN - more cacheable
+    * frequently changing commands - at the end (if layer 5 changes, layer 6,7,8,9... changes - rebuilt)
+    * only necessary packages - reduce image size and possible vulnerabilities
+    * .dockerignore: exclude building files and folders: speed up builds, secure sensitive info leaked
+    * use non root user: to build - enhance security
+    * image scanning: Trivy, clair - tools (scan vulnerabilities)
+    * comment and explain
+    * mention versions
+
+public repositories:
+    * host docker images 
+
+Multistage builds:
+    * Use multiple FROM statements in a single Dockerfile
+    * efficient and smaller docker images 
+    * benefits:
+        * reduced image size (build environment is separated from the runtime environment) - exclude build tools and deps from the final image
+        * why: not everything needs - every deps - run as separate containers as a group
+        * Improved build efficiency: 
+            * different base images for different stages - boost and optimize each stage
+        * cleaner and maintainable code
+
+port management:
+    * docker containers are isolated, keeping internal ports themselves - not expose outside
+    * -p or --publish : map a port of host os to the container internal port
+    * docker-compose.yml: easy to define all services and port mappings
+    * expose:
+        * documentation - which ports app tends to use 
+        * more or less like a note
+        * In docker file - may be more than 1 expose (just a note)
+    * publish:
+        * actual port mapping (enable external traffic)
+        * docker run -p <host_port>:<container_port> image_name
+        * docker-compose > ports 
+        * port conflict:
+            * already being used, firewall config
+        * docker vulnerabilities are easily exposed:
+            * attacker can breach the container - use reverse proxies or other security measures
+
+docker container linking (Use networks):
+    * legacy feature not recommended, network has more capabilities
+        * docker run -d --name mysql-container -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 mysql:8.0.35
+        * docker run -d --name java-container --link mysql-container:mysql java-app
+    * link multiple containers (better than exposing ports)
+    * host mysql: jdbc:mysql://host.docker.internal:3306
+    * same container: jdbc:mysql://localhost:3306
+    * different container: jdbc:mysql://container-name:3306
+    * ifconfig -> we can see docker ethernet adapter - handles host os and docker communication (bridge)
+
+docker storage:
+    * By design data can't be persisted in a docker container 
+        * docker container always meant to be transient (stop, start) - destroy and start over
+    * reasons:
+        * data lost when container stopped
+        * writable layer - heavily coordinated with host machine (hard to move it to other machine / extract data)
+        * problem with scaling, synchronization
+    * good practices:
+        * storage driver or union file system - may cause overhead compared to writing in host os (but for good)
+        * docker volumes / bind mounts - share data between containers + persistence, portability and easy to access
+    * volume or bind mount or tmpfs : data inside a container is presented as a directory or file within the container's file system
+    * difference: location on the docker host where persistent data resides
+    * volumes:
+        * linux volumes live in a docker managed part of host filesystem
+            * usually: /var/lib/docker/volumes
+            * this area cannot be accessed by natively running docker (with out specifying this volume)
+    * bind mounts:
+        * can locate anywhere in a host system - even crucial system files
+        * can be changed by other process not managed by docker
+        * flexible but not isolated
+    * tmpfs:
+        * exist only in host's system memory - never touch filesystem of host
+        * suitable for ephemeral and non persistent data 
+
+docker volumes:
+    * use case: databases, logs, web server content (even server started - still resource there)
+    * preferred way - data generated and used by docker containers
+    * independent of host file system, has benefits over mount volumes
+    * benefits: 
+        * persistence
+        * portable (use among containers, migration are easy)
+        * management: docker cli or api - manage volumes easily
+        * cross platform compatibility - run on linux, window
+        * performance: optimal performance with docker than bind mounts
+
+ bind mounts:
+    * directly share files / directories from host machine
+    * not managed by docker but host os
+    * features: direct access, flexible but not isolated 
+    * use case: helpful in development (directly edit and test), config files, share host resources
+
+named pipes and tmpfs:
+    * tmpfs linux:
+        * temp file system held in memory (not persisted to disk)
+        * usecase: sensitive info storage / temp data
+        * faster (in memory) : writing, reading than disk based but volatile
+    * named pipes windows:
+        * similar to tmpfs - they enable processes to communicate with each other
+        * store data in a temp memory
+        * named pipes: basics for inter process communication in windows
+
+when to use bind mount and volume:
+    * volume: preferred with in docker. perfect for share data b/w containers
+    * volume use case: 
+        * where can't guarantee host os file structure, storing data remotely
+        * backup, restore, migrate
+        * preferred IO intensive applications
+    * bind mounts: 
+        * share config file / source code between host and containers 
+        * specially dev environment
+        * caution: sensitive info (can be impacted by host)
+
+docker security:
+    * functional and reliable: effective container isolation - so malicious activities won't propagate
+    * establishing namespaces, each container: exclusive environment - other containers won't have access
+    * with group - limit resources consumption by a container (spu, memory, disk)
+    * docker maintains: security model (updated vulnerabilities)
+    * major areas 
+        * intrinsic: kernel, support for namespaces and cgroups 
+        * attack surface: exposed by docker daemon only
+        * loopholes in containers: config or due to user customization
+        * hardening the system
+        
+namespace and cgroups:
+    * namespaces: 
+        * PID : isolates process (container's PID and host are different)
+        * network : isolates networking by interfaces, IP, routing tables
+        * mount
+        * UTS(hostname, domain) : different kernel and version identifiers
+        * IPC (inter process communication) isolation are used
+        * User namespace: isolate user and group IDs 
+        * summary: host and containers namespaces are different
+    * control group: linux kernel feature limits and isolates resource usage of a collection of processes.
+        * cpu, memory, IO, network
+    
+docker daemon attack surface:
+    * daemon runs with root user privileges - serious concern (control whole system)
+    * safety measures:
+        * limit access: allow access to docker daemon - only for specific users (who can run docker commands)
+        * restricted access to secured communication with unix socket permissions or TCP with TLS
+        * use docker's rootless mode (run daemon without root privilege)
+        * network security: not expose docker API to public, firewall rules and VPN
+        * regular updates: keep docker and base OS updated
+
+linux kernel capabilities:
+    * fine grained controls over privileges to processes (reduce privileges)
+    * CAP_NET_BIND_SERVICE: allow binding to ports below 1024
+    * CAP_SYS_ADMIN: different system admin operations
+    * CAP_SYS_PTRACE: trace other processes
+    * use --cap-add and --cap-drop : add / remove capabilities upon running
+
+docker content trust signature verification:
+    * guarantee image - not tampered
+    * features:
+        * image signing 
+        * sign verification
+        * immutable tags
+    
+other kernel security features:
+    * secure computing mode 
+        * filter out system calls (not allow potentially unsafe operations)
+        * docker uses AppArmor (confine program behavior in linux) - apply mandatory access control and restriction of containers
+        * SELinux: implement security policies (extra heightened security): access resources
+        
+best practices security:
+    * small and right base image (trusted)
+    * multi stage builds
+    * rebuild images regularly
+    * check image vulnerabilities
+
+docker logging:
+    * real-time insights - error, warning, optimize performance
+    * anomaly detection, unauthorized access, threats, breaches
+    * why docker logging different:
+        * centralization and aggregation: collection of all logs (single point)
+        * log drivers and plugins: json, syslog, aws cloud watch : storage points
+        * storing out of container: persistent
+        * note: can configure logging driver - per container basis
+
+ways of docker logging:
+    * logging through app:
+        * log from app - stdout, stderr
+        * adv: easy implementation, portable, compatible
+        * best practice: json (structure), log rotation (limit logs - log rotation - delete previous logs), use log levels
+    * data volumes logging:
+        * store logs in volume
+        * adv: persistence, keep log separate from containerized app, flexible
+        * best: volume management (space), backup and retention policies, access controls 
+    * docker logging drive:
+        * builtin drivers: send logs to destinations
+        * adv: centralized logging, CI/CD, scalable
+        * best: pick driver, config(performance and reliable)
+    * logging container:
+        * dedicated container (logging agent app) like fluentd, log stash, aggregate
+        * adv: isolation, scalable, flexible
+        * best: resource allocation, network config, redundancy (failed - others available)
+    * sidecar approach:
+        * sidecar container runs along with main app container - same pod in kubernetes
+        * responsibility: collect, process, forward app logs
+        * adv: proximity (low latency), modularity (scale and manage), consistent
+        * best: resource allocation, observe health and functionality of main and sidecar containers
+
+logging modes:
+    * blocking: deliver synchronously: acknowledge required (log processed) - reliable, performance : painful
+    * non blocking: wont wait for response (logs may be lost), performance will be good
+
+docker kubernetes architecture:
+    * kubernetes: orchestration framework - expose containers as services to the outside world
+    * each service may have different IP - manage these services
+    * minion: node on which all containers run (each minion will host one or more POD - hosting a service)
+    * proxy - controls the services to the outside world
+
+docker commands:
+    * docker --version
+    * configure docker daemon:
+        * docker desktop
+        * sudo systemctl start docker
+    * edit daemon config file:
+        * nano /etc/docker/daemon.json:
+            * log-level : debug
+            * bip : "172.20.0.1/16" -> specify subnet for docker's default bridge network
+            * default-cpus : 2
+            * default-memory : 2G
+            * secure docker: 
+                "tls": true,
+                "tlscacert": "/path/to/ca.pem",
+                "tlscert": "/path/to/cert.pem",
+                "tlskey": "/path/to/key.pem"
+    * pull an image:
+        * docker pull postgres (latest: default)
+        * docker pull ubuntu22.04
+        * docker pull demouser/demoapp 
+    * remove an image:
+        * docker rmi <image-id>
+    * list all images:
+        * docker image ls
+        * docker image ls -q (just ids)
+    * run a container:
+        * postgres: (initialize)
+            * docker run -e POSTGRES_PASSWORD=postgres postgres
+        * ubuntu:
+            * podman run -it ubuntu:22.04
+                * exit terminal: container also exit
+            * open a terminal
+                * docker run -it ubuntu:22.04 /bin/bash
+            * run the container for some time 
+                * docker run ubuntu:22.04 sleep 3600
+            * run in detached mode 
+                * if no command to keep it running - will exit after finishing the task (default : run a terminal) - give long running task
+                    * docker run -d ubuntu:22.04 sleep infinity
+                    * docker run -d ubuntu:22.04 tail -f /dev/null
+                        * tail: display last 5 lines
+                        * -f: follow the file (get updated)
+                        * /dev/null : unix - black hole / bit bucker - discards any data written to it.
+                        * reason: always empty, won't grow - space usage is nill 
+                        * purpose: just keep on running the container
+            * docker run -d -it ubuntu:22.04 /bin/bash
+            * run a server (long running): podman run -d -p 8080:80 ubuntu:22.04 bash -c "apt update && apt install -y apache2 && apachectl -D FOREGROUND"
+    * remove a container:
+        * docker rm <container-id>
+    * check containers:
+        * docker ps
+    * stop a container:
+        * docker stop container_name
+    * start a container:
+        * docker start container_name
+    * pause a container:
+        * docker pause container_name
+    * resume a container:
+        * docker unpause container_name
+    * restart a container:
+        * docker restart container_name
+    * execute a command in a running docker container:
+        * docker exec -it container_name_or_id bash (return container terminal)
+    * run a version with container_name:
+        * docker run --name postgres-latest -e POSTGRES_PASSWORD=postgres -d postgres
+        * docker run --name postgres-old -e POSTGRES_PASSWORD=postgres -d postgres:13.8
+    * stop a container:
+        * docker container stop container_name (forcefully)
+        * docker kill <container-id> (gracefully): send signal
+    * list all containers (even stopped ones):
+        * docker container ls -a
+    * remove all stopped containers:
+        * docker container prune
+        * option: -a, --all (not just dangling ones : all unused)
+        * option: -f, --force: don't ask confirmation before cleaning
+    * check volume:
+        * docker volume ls
+    * mongo db:
+        * docker pull mongo
+        * docker run --name mongodb -d mongo
+        * docker container ls
+        * docker run --name mongodb -p 4000:27017 -d mongo
+        * docker run -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password --name mongodb --net mongo-network -d mongo
+            * run: run an image
+            * p: port mapping
+            * -e: environment variables (mongo db documentation)
+            * --name: name of the container
+            * --net: network name
+            * -d: background detached
+            * mongo: image name
+    * docker logs:
+        * docker logs <container name>
+    * check port is available: 
+        * lsof -i :<port-number>
+    * port mapping:
+        * docker run --name mongodb -p 4000:27017 -d mongo
+    * delete a container:
+        * docker container rm <container name>
+    * create network:
+        * docker network create <network-name>
+        * commands sql:
+            * docker run -d --name java-container --network mynetwork java-app
+            * docker run -d --name mysql-container --network mynetwork -e MYSQL_ROOT_PASSWORD=root mysql:latest
+            * connect from my-app:
+                * host os: jdbc:mysql://host.docker.internal:3306 : host mysql
+                * same container: jdbc:mysql://localhost:3306
+                * different container (same network): jdbc:mysql://container-name:3306
+    * find lost network:
+        * docker network ls
+    * run a docker-compose file:
+        * docker-compose -f docker-compose.yml up
+            * -f: file name 
+            * up: run the containers
+        * version:
+            ./docker-compose -version
+    * stop running all containers:
+        * docker-compose -f docker-compose.yml down
+    * push docker image to the docker hub:
+        * docker push <name> (myrepo/myapp:v1.0)
+    * build a docker image:
+        * docker build -t <docker-hub username>/<image name> .
+        * docker build  -t ImageName:TagName dir
+            * t: name for the image
+            * . path of the docker file (. means current directory)
+            * Dockerfile: refer the folder
+    * tagging an image:
+        * docker tag myapp:latest myrepo/myapp:v1.0
+    * view docker image history:
+        * docker image history myimage:latest
+    * inspect a docker image (json):
+        * docker image inspect myimage:latest
+    * delete all docker images at once:
+        * docker rmi -f $(docker image ls -q)
+    * private registry:
+        * sudo docker run –d –p 5000:5000 –-name registry registry:2
+            * don't want to use docker hub, do it locally
+            * registry: image by docker - host private repositories
+            * registry:2 -> rename (to differentiate it on docker host)
+            * -d: detached mode 
+        * docker ps : ensure private docker registry is running
+        * tag local image:
+            * sudo docker tag 67591570dd29 localhost:5000/centos 
+                * 6759: image id
+                * localhost: private repo location
+                * centos: repo name
+        * push to private registry:
+            * docker push localhost:5000/centos
+    * top processes in a container:
+        * docker top container-id
+        * docker stats container-id
+    * attach to a container:
+        * docker attach container-id
+            * interact: give standard input and output
+    * mount storage:
+        * -v or --volume : volume or bind mount
+        * --tmpfs : tmpfs
+        * note: use --mount with all options for readability and clarity
+    * create volume:
+        * docker volume create <volume-name>
+    * use a volume  / bind mount for a container:
+        * docker run -d --name my-container -v my-vol:/app/data <image-name>
+        * docker run -d --name my-container -v $(path_host):/app my-image
+        * docker run -d --name my-container -v /path/to/file.txt:/etc/config.txt my-image
+        * docker run -d --name my-container --mount type=bind,source="$(pwd)",target=/app my-image
+    * list volumes  / bind mounts:
+        * docker volume ls
+    * inspect a volume  / bind mount:
+        * docker volume inspect <volume-name>
+    * removed a volume  / bind mount:
+        * docker volume rm <volume-name>
+    * docker logs:
+        * docker logs my-container
+        * docker logs -f my-container (real time)
+        * docker logs --tail 100 my-container 
+        * docker logs -t my-container : with timestamp
+        * docker logs -f -t --tail 50 my-container
+        * docker logs my-container | grep "2024-06-01" : search a log by date
+        * docker logs my-container > my-container-logs.txt (save to a file)
+        * log rotation:
+            * make entry in daemon.json or docker-compose.yml
+                {
+                    "log-driver": "json-file",
+                    "log-opts": {
+                        "max-size": "10m",
+                        "max-file": "3"
+                    }
+                }
+    * log delivery modes:
+        * docker run --log-driver=syslog my-container (per container basis - log driver config)
+        * docker run --log-driver=syslog --log-opt syslog-address=udp://localhost:514 my-container
+        * blocking mode:
+            * docker run --log-driver=json-file --log-opt mode=blocking my-container
+        * non blocking mode:
+            * docker run --log-driver=json-file --log-opt mode=non-blocking my-container
+    * logging driver options or flags:
+        * max-size, max-file
+            * docker run --log-driver=json-file --log-opt max-size=10m --log-opt max-file=3 my-container
+        * syslog-address, syslog-facility, syslog-tls-ca-cert
+            * docker run --log-driver=syslog --log-opt syslog-address=udp://localhost:514 --log-opt syslog-facility=daemon my-container
+        * fluentd-address, fluentd-async-connect, fluentd-buffer-limit
+            * docker run --log-driver=fluentd --log-opt fluentd-address=localhost:24224 --log-opt fluentd-async-connect=true my-container
+        * awslogs-region, awslogs-group, awslogs-stream
+            * docker run --log-driver=awslogs --log-opt awslogs-region=us-east-1 --log-opt awslogs-group=my-log-group --log-opt awslogs-stream=my-log-stream my-container
+        
+    
+
+    
+        
+    
+    
+
