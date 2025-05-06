@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Registration Form</title>
+</head>
+<body>
+    <h1>Race Registration</h1>
+    <form action="google.com" method="get">
+        <div>
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="surname">Last Name:</label>
+            <input type="text" id="surname" name="surname" required>
+        </div>
+        <br>
+        <div>
+            <label for="race">Select a Race:</label>
+            <br><br>
+            <div>
+                <input type="radio" id="five_km_marathon" name="race" value="Fun Run 5k">
+                <label for="five_km_marathon">Fun Run 5k</label>
+            </div>
+            <div>
+                <input type="radio" id="half_marathon" name="race" value="Half Marathon">
+                <label for="half_marathon">Half Marathon</label>
+            </div>
+            <div>
+                <input type="radio" id="full_marathon" name="race" value="Full Marathon">
+                <label for="full_marathon">Full Marathon</label>
+            </div>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <label for="age"> Select Age Group</label>
+            <select id="age" name="age">
+                <option value="under_18">Under 18</option>
+                <option value="18_25">18-25</option>
+                <option value="26_35">26-35</option>
+                <option value="36_45">36-45</option>
+                <option value="46_55">46-55</option>
+                <option value="56_65">56-65</option>
+                <option value="over_65">Over 65</option>
+            </select>
+        </div>
+        <input type="submit" value="Register!">
+    </form>
+</body>
+</html>
