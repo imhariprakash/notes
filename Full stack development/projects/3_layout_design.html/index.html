@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				font-family: Arial;
+				background-color: #f1f1f1;
+				padding: 10px;
+			}
+
+			header {
+				text-align: center;
+				padding: 30px;
+				background-color: white;
+			}
+
+			header h1 {
+				font-size: 50px;
+			}
+
+			nav {
+				background-color: #333;
+				overflow: hidden;
+			}
+
+			nav a {
+				float: left;
+				display: block;
+				color: #f2f2f2;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+
+			nav a:hover {
+				background-color: #ddd;
+				color: black;
+			}
+
+			.right-float-nav {
+				float: right;
+			}
+
+			main {
+				background-color: #f1f1f1;
+			}
+
+			main::after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+
+			.main-layout {
+				width: 75%;
+				float: left;
+			}
+
+			.sidebar {
+				width: 25%;
+				float: left;
+                padding-left: 20px;
+			}
+
+			article {
+				padding: 20px;
+				background-color: white;
+                margin-top: 20px;
+			}
+
+			footer {
+				text-align: center;
+				padding: 20px;
+				background-color: #ddd;
+                margin-top: 20px;
+			}
+
+			.fake-image {
+				background-color: #aaa;
+				width: 100%;
+				padding: 20px;
+				height: 200px;
+			}
+
+			.fake-profile {
+				background-color: #aaa;
+				width: 100%;
+				padding: 20px;
+                height: 100px;
+			}
+
+			.fake-post {
+				background-color: #aaa;
+                width: 100%;
+                padding: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>My Website</h1>
+			<p>Resize the browser window to see the effect.</p>
+		</header>
+		<nav>
+			<a href="#">Link</a>
+			<a href="#">Link</a>
+			<a href="#">Link</a>
+			<a href="#" class="right-float-nav">Link</a>
+		</nav>
+		<main>
+			<section class="main-layout">
+				<article>
+					<h2>TITLE HEADING</h2>
+					<h5>Title description, Dec 7, 2017</h5>
+					<div class="fake-image">
+						Image
+					</div>
+					<p>Some text..</p>
+					<p>
+						Sunt in culpa qui officia deserunt mollit anim id est
+						laborum consectetur adipiscing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut
+						enim ad minim veniam, quis nostrud exercitation ullamco.
+					</p>
+				</article>
+				<article>
+					<h2>TITLE HEADING</h2>
+					<h5>Title description, Sep 2, 2017</h5>
+					<div class="fake-image">
+						Image
+					</div>
+					<p>Some text..</p>
+					<p>
+						Sunt in culpa qui officia deserunt mollit anim id est
+						laborum consectetur adipiscing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut
+						enim ad minim veniam, quis nostrud exercitation ullamco.
+					</p>
+				</article>
+			</section>
+			<section class="sidebar">
+				<article>
+					<h2>About Me</h2>
+					<div class="fake-profile">
+						Image
+					</div>
+					<p>
+						Some text about me in culpa qui officia deserunt mollit
+						anim..
+					</p>
+				</article>
+				<article>
+					<h3>Popular Post</h3>
+					<div class="fake-post">
+						<p>Image</p>
+					</div>
+					<div class="fake-post">
+						<p>Image</p>
+					</div>
+					<div class="fake-post">
+						<p>Image</p>
+					</div>
+				</article>
+				<article>
+					<h3>Follow Me</h3>
+					<p>Some text..</p>
+				</article>
+			</section>
+		</main>
+		<footer>
+			<h2>Footer</h2>
+		</footer>
+	</body>
+</html>
