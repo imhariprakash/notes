@@ -121,4 +121,3 @@ client is satisfied.
 -   sit almost at the edge of the seat, act extroverted (what makes me unique)
 -   don't expose weakness - don't accept self rejection
 -   Ask questions: open ended (not yes / no)
--   
