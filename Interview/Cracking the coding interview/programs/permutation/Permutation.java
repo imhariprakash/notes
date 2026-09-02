@@ -11,6 +11,11 @@
         /     \   /   \    /   \
       ab,c  ac,b bc,a ba,c ca,b cb,c
       abc   acb  bca  bac  cab  cbc
+
+ * Depth: 10, time: n^2 * n! : permutation is called: n! -> loop: n, each loop: print: n -> n * n = n^2
+  * Even though the loop is going to run from prefix to n - loose bound -> considered as n (n * n = n^2)
+ * Space: n * n = n^2 (At a time : n stacks -> n strings)
+ * Garbage collection: n^2 * n!
 */
 
 public class Permutation
