@@ -7,6 +7,9 @@
                abc       bac       cba
               /   \     /   \     /   \
             abc   acb  bac   bca  cba   cab
+  * Time complexity: O (n * n!): print: n, n!: permutations
+  * Depth: O(n)
+  * Space complexity: O(n): for char array (O(1): prefix: ignored)
 */
 
 public class Permutation
