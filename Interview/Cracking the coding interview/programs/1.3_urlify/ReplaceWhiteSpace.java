@@ -1,5 +1,3 @@
-import java.util.Scanner;
- 
 class ReplaceWhiteSpace{
     public static void main(String[] args)
     {
