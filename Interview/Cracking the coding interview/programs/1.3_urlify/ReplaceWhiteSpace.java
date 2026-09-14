@@ -1,4 +1,5 @@
-class ReplaceWhiteSpace{
+class ReplaceWhiteSpace
+{
     public static void main(String[] args)
     {
         char[] str = {'M', 'r', ' ', 'J', 'o', 'h', 'n', ' ', 'S', 'm', 'i', 't', 'h', ' ', ' ', ' ', ' '};
