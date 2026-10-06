@@ -11,7 +11,7 @@
 Add each page range here as you finish it.
 
 - [x] 1–102
-- [x] 202–216
+- [x] 202–219
 
 ## Daily log
 
@@ -20,8 +20,8 @@ Fill in **Read today**, **Total done** and **Notes** at the end of each day.
 
 | Day | Date | Target | Read today | Total done | Notes |
 |----:|------|-------:|-----------:|-----------:|-------|
-| 1 | Mon Oct 05 | 137 | | | |
-| 2 | Tue Oct 06 | 157 | | | |
+| 1 | Mon Oct 05 | 137 | 3 | 120 | 217–219 (1.8 Zero Matrix, 1.9 String Rotation solutions). Behind by 17 |
+| 2 | Tue Oct 06 | 157 | | | Started at 103. Read 103–139 to catch up |
 | 3 | Wed Oct 07 | 177 | | | |
 | 4 | Thu Oct 08 | 197 | | | |
 | 5 | Fri Oct 09 | 217 | | | |
